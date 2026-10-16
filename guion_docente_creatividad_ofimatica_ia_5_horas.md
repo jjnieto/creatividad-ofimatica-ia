@@ -362,7 +362,7 @@ Pedir a cada participante una técnica que quiera aplicar en un futuro empleo.
 | Material | Contenido |
 |---|---|
 | Presentación | 30–40 diapositivas con conceptos, demostraciones, preguntas y actividades. |
-| Cuaderno de ejercicios | Instrucciones y espacios para resolver los cuatro ejercicios. |
+| Cuaderno de ejercicios | Instrucciones y espacios para resolver los tres ejercicios (bloques 1 a 3) y el proyecto integrado de Oficina Futuro (bloque 4). |
 | Plantilla Excel / Sheets | Matriz de decisión y fórmulas de puntuación. |
 | Ficha del caso | Contexto y restricciones de Oficina Futuro. |
 | Plantilla Word / Docs | Estructura del proyecto de innovación. |
