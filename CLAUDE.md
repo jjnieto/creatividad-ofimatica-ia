@@ -8,6 +8,10 @@ No es un proyecto de software: no hay build, lint ni tests. Contiene material do
 
 El único documento actual es `guion_docente_creatividad_ofimatica_ia_5_horas.md`.
 
+## Flujo de trabajo con git
+
+Tras cada cambio, hacer commit (mensaje en español) y `git push origin main` sin pedir confirmación. Se trabaja directamente en `main`; el remoto es `https://github.com/jjnieto/creatividad-ofimatica-ia`.
+
 ## Estructura del guion
 
 1. Enfoque y objetivos (resultados de aprendizaje).
