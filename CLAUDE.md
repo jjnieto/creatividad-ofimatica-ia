@@ -14,26 +14,30 @@ Tras cada cambio, hacer commit (mensaje en español) y `git push origin main` si
 
 ## Estructura del guion
 
-1. Enfoque y objetivos (resultados de aprendizaje).
-2. Cronograma general: tabla de 5 bloques con duración y minutos acumulados.
-3. Desarrollo por bloques. Cada bloque tiene un **Objetivo** y subsecciones con el encabezado `#### Minutos X–Y. Título`, que deben encadenarse sin huecos ni solapes.
-4. Rúbrica de evaluación (suma 100 puntos).
-5. Materiales que debe preparar el docente.
-6. Orientaciones metodológicas finales.
+1. Enfoque y objetivos. Tres decisiones de diseño que no deben romperse: un único caso de principio a fin, primero personas y después IA en cada técnica, y «la IA produce, la persona decide» (no se enseñan funciones de ofimática que la IA ya resuelve).
+2. El caso: Comunidad de propietarios Los Almendros, 14. El enunciado da solo datos base, sin listar problemas (los aporta el alumnado). Incluye la lista de respaldo, el reto de referencia y la tabla de los cuatro giros.
+3. Cronograma general: bloques, descanso de 15 minutos y margen final, con minutos acumulados.
+4. Desarrollo por bloques. Cada bloque tiene un **Objetivo** y subsecciones `#### Minutos X–Y. Título` (o `#####` dentro de las técnicas del bloque 2) que deben encadenarse sin huecos ni solapes.
+5. Rúbrica de evaluación (suma 100 puntos).
+6. Ejercicios de reserva: cuatro, independientes entre sí, de 20–30 minutos con la corrección incluida, cada uno con «Qué buscar al corregir».
+7. Materiales. 8. Orientaciones metodológicas (incluye el orden de recortes si se va con retraso).
+Anexos A (circular con errores, bloque 3) y B (matriz con errores, reserva 3), cada uno con su solución.
 
-Hilo conductor entre bloques: los ejercicios se reutilizan (las tres propuestas del Ejercicio 2 del bloque 2 se puntúan en la matriz del Ejercicio 3 del bloque 3), y el bloque 4 integra todo en el caso ficticio «Oficina Futuro», cuyos entregables (documento, matriz y tres diapositivas) se presentan en el bloque 5.
+Hilo conductor: el reto común se formula en el bloque 1; cada técnica del bloque 2 se practica sin IA y con IA sobre él y se anota en la tabla de registro, que se retoma en el cierre del bloque 5; cada pareja elige una idea principal distinta y la convierte en ficha, matriz y tres diapositivas que defiende ante «la junta». Los ejemplos que ilustran cada técnica son ajenos al caso; la práctica siempre es sobre el caso.
 
 ## Coherencias que hay que mantener al editar
 
-- **Tiempos:** si se cambia la duración de una actividad, actualizar los rangos `Minutos X–Y` de todo el bloque, la tabla del cronograma (duración y minutos acumulados), el total de 300 minutos y la nota sobre el descanso de 15 minutos.
-- **Matriz de decisión (bloque 3):** los pesos deben sumar 100 % y coincidir con la fórmula de Excel (`=B2*35%+C2*30%+D2*20%+E2*15%`); recalcular la columna «Resultado» si cambian puntuaciones o pesos. Los decimales usan coma (4,35).
-- **Rúbrica:** los máximos de los criterios deben sumar 100.
-- **Referencias cruzadas:** número de ejercicios, de diapositivas, de parejas (16 personas → 8 parejas) y la lista de materiales deben concordar con el desarrollo de los bloques.
-- **Herramientas:** se mencionan siempre por pares equivalentes (Word / Google Docs, Excel / Google Sheets, PowerPoint / Google Slides) y la IA de forma genérica.
+- **Tiempos:** si cambia la duración de una actividad, actualizar los rangos `Minutos X–Y`, la tabla del cronograma, el momento de cada giro en la tabla de giros y el total de 300 minutos.
+- **Giros:** el contenido de cada giro aparece en la tabla de giros y en el bloque donde se introduce; deben coincidir. Los prompts y materiales posteriores a un giro deben respetarlo (p. ej., tras el giro 1 nada puede depender solo de WhatsApp o smartphone).
+- **Cálculos:** las matrices usan pesos 35/30/20/15 (Bajo coste: 5 = muy económica); recalcular los resultados si cambian puntuaciones o pesos. Los anexos tienen errores intencionados: si se toca el texto, actualizar la tabla de solución y comprobar las cifras corregidas. Decimales con coma (4,35).
+- **Rúbrica:** los máximos deben sumar 100.
+- **Referencias cruzadas:** número de giros, ejercicios de reserva, diapositivas, parejas (16 personas → 8 parejas) y la lista de materiales deben concordar con el desarrollo.
+- **Herramientas:** por pares equivalentes (Word / Google Docs, Excel / Google Sheets, PowerPoint / Google Slides) y la IA de forma genérica; se asume IA de chat gratuita, no IA integrada en la suite.
 
 ## Convenciones de contenido
 
 - Español de España con ortografía y tildes completas; tratamiento de «vosotros» al dirigirse al grupo.
-- Los prompts para proyectar van en bloques ```` ```text ````; las fórmulas en ```` ```excel ````.
-- Mensajes recurrentes que no deben perderse: no inventar cifras ni resultados (los datos del caso son supuestos didácticos), no introducir información personal o confidencial en IA no autorizada, verificar siempre las respuestas de la IA y presentar el proyecto como simulación formativa.
-- Orientación metodológica: nivel intermedio (no explicar funciones básicas), ~25 % explicación / ~75 % práctica, casos transferibles a puestos administrativos, comerciales y de atención al cliente.
+- Los prompts para proyectar van en bloques ```` ```text ````.
+- Mensajes recurrentes que no deben perderse: no inventar cifras, normas ni resultados; no introducir datos personales en IA no autorizada; verificar siempre lo que entrega la IA; presentar el proyecto como simulación formativa; no adelantar la conclusión sobre el binomio persona + IA (la saca el grupo de sus datos).
+- Afirmaciones legales (Ley de Propiedad Horizontal, protección de datos): no afirmar reglas concretas; remitir a comprobar en fuentes oficiales.
+- El caso es neutro a propósito: se descartó usar la oficina de empleo para evitar que el curso se convierta en una sesión de quejas de un alumnado desempleado.
