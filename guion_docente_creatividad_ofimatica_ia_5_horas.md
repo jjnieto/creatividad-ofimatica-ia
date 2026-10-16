@@ -367,6 +367,7 @@ Pedir a cada participante una técnica que quiera aplicar en un futuro empleo.
 | Ficha del caso | Contexto y restricciones de Oficina Futuro. |
 | Plantilla Word / Docs | Estructura del proyecto de innovación. |
 | Plantilla PowerPoint / Slides | Tres diapositivas: problema, solución y beneficios. |
+| Ejercicios de reserva | Datos base de la comunidad de vecinos y tarjeta del giro (sección 7). |
 
 **Requisitos técnicos:** ordenador por participante o pareja, conexión a internet, acceso a una IA generativa y suite ofimática. Tener ejemplos y datos ficticios preparados por si falla la conexión.
 
@@ -379,3 +380,56 @@ Pedir a cada participante una técnica que quiera aplicar en un futuro empleo.
 - **Uso responsable:** no incorporar información personal o confidencial a servicios de IA sin autorización; verificar afirmaciones, datos y funciones de herramientas.
 
 **Mensaje central para cerrar el taller:** la IA ayuda a ampliar y acelerar el pensamiento creativo; el valor profesional consiste en **definir bien el problema, elegir una solución sensata y saber cómo comprobar si funciona**.
+
+## 7. Ejercicios de reserva
+
+Para usar al final si sobra tiempo, en orden: si sobra tiempo se hace el 1; si después sigue sobrando, el siguiente. Cada ejercicio es independiente y su duración **incluye la corrección en clase**.
+
+### Ejercicio de reserva 1. La comunidad de vecinos que no funciona (30 minutos)
+
+**Objetivo:** aplicar en poco tiempo todo el proceso del curso (detectar, idear con y sin IA, decidir y defender) sobre un servicio que todo el mundo conoce por experiencia propia.
+
+**Datos base** (lo único que se entrega; los problemas los aporta el grupo):
+
+- Comunidad de propietarios Los Almendros, 14: 32 viviendas, un bar en el bajo y un ascensor de 25 años.
+- Vecindario mixto: aproximadamente un tercio de mayores de 70 años, familias, 8 pisos de alquiler con inquilinos que cambian a menudo y 3 propietarios que viven en otra ciudad.
+- La presidenta de este año es Carmen, de 74 años.
+- La comunidad está gestionada por un pequeño despacho de administración de fincas. El alumnado forma parte de su equipo.
+- Mensaje de la comunidad al despacho: *«Esto no funciona. Ayudadnos»*.
+
+**Desarrollo:**
+
+1. **Minutos 0–3. Presentación.** Leer los datos base y el mensaje.
+2. **Minutos 3–8. ¿Qué falla? (entre todos, sin IA).** El grupo dice qué suele fallar en una comunidad de vecinos y el docente lo apunta. Después se elige un problema común y se formula como reto: «¿Cómo podríamos…?».
+3. **Minutos 8–15. Ideas (por parejas).** Cinco ideas sin IA. Después, cinco más con este prompt:
+
+   ```text
+   Somos el despacho de administración de una comunidad de 32 viviendas
+   con vecinos mayores, inquilinos que cambian a menudo y propietarios
+   que viven fuera. Este es nuestro reto: [reto].
+   Ya tenemos estas ideas: [ideas de la pareja].
+   Propón cinco ideas nuevas que no se parezcan a las nuestras,
+   de bajo coste y que puedan probarse en un mes.
+   ```
+
+4. **Minuto 15. Giro.** El docente anuncia: *«Carmen, la presidenta, no tiene WhatsApp ni smartphone. Un tercio de los propietarios tampoco»*. Cada pareja descarta o adapta las ideas que ya no sirven.
+5. **Minutos 15–22. Elegir y poner a prueba.** Cada pareja elige una idea (dos parejas no pueden elegir la misma) y la somete a la crítica de la IA:
+
+   ```text
+   Actúa como el vecino más desconfiado de una comunidad de 32 viviendas:
+   no te gustan los cambios y crees que toda propuesta nueva es una excusa
+   para cobrar más. Hazme las dos preguntas más difíciles que harías en
+   la junta sobre esta propuesta: [resumen sin nombres ni datos personales].
+   ```
+
+   Preparar una respuesta breve para cada pregunta.
+6. **Minutos 22–30. Corrección: la junta.** Cada pareja presenta su idea en un minuto y responde a una de las preguntas difíciles. El docente hace de Carmen y el resto del grupo de vecinos.
+
+**Qué buscar al corregir:**
+
+- El reto está bien formulado: no contiene ya la solución y se centra en las personas.
+- La idea se ha adaptado al giro: funciona para quien no usa WhatsApp ni smartphone.
+- Es de bajo coste y se puede probar en un mes; no depende de contratar a nadie.
+- La pareja distingue qué parte de la idea es suya y qué aportó la IA, y no acepta sin más lo que propone la IA.
+- Responde a la pregunta difícil con argumentos y no con cifras inventadas.
+- No aparecen datos personales de vecinos en lo que se ha introducido en la IA.

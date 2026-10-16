@@ -20,6 +20,7 @@ Tras cada cambio, hacer commit (mensaje en español) y `git push origin main` si
 4. Rúbrica de evaluación (suma 100 puntos).
 5. Materiales que debe preparar el docente.
 6. Orientaciones metodológicas finales.
+7. Ejercicios de reserva: se usan en orden solo si sobra tiempo al final; son independientes, de 20–30 minutos con la corrección incluida, y cada uno lleva «Qué buscar al corregir». El primero es el caso de la comunidad de vecinos.
 
 Hilo conductor entre bloques: los ejercicios se reutilizan (las tres propuestas del Ejercicio 2 del bloque 2 se puntúan en la matriz del Ejercicio 3 del bloque 3), y el bloque 4 integra todo en el caso ficticio «Oficina Futuro», cuyos entregables (documento, matriz y tres diapositivas) se presentan en el bloque 5.
 
