@@ -13,7 +13,8 @@ El curso se centra en **utilizar creatividad, innovación, ofimática e IA para 
 
 Al finalizar, cada participante podrá:
 
-- Aplicar técnicas de creatividad como SCAMPER, pensamiento divergente y reformulación de problemas.
+- Aplicar tres técnicas de creatividad (brainstorming, SCAMPER y provocación), así como el pensamiento divergente y la reformulación de problemas.
+- Comparar las ideas propias con las generadas por IA y combinarlas con criterio.
 - Utilizar IA generativa para producir, ampliar, revisar y cuestionar ideas.
 - Documentar propuestas en Word o Google Docs.
 - Comparar alternativas mediante matrices en Excel o Google Sheets.
@@ -25,8 +26,8 @@ Al finalizar, cada participante podrá:
 
 | Bloque | Tema | Duración | Minutos acumulados |
 |---|---|---:|---:|
-| 1 | Activación de la creatividad | 45 min | 0–45 |
-| 2 | Técnicas creativas con IA | 60 min | 45–105 |
+| 1 | Activación de la creatividad y brainstorming | 45 min | 0–45 |
+| 2 | SCAMPER y provocación con IA | 60 min | 45–105 |
 | 3 | Ofimática para innovar | 60 min | 105–165 |
 | 4 | Proyecto práctico de innovación | 75 min | 165–240 |
 | 5 | Presentación, crítica y evaluación | 60 min | 240–300 |
@@ -38,9 +39,13 @@ Al finalizar, cada participante podrá:
 
 ## 3. Desarrollo del guion docente
 
-### BLOQUE 1. Activación de la creatividad y mentalidad innovadora (45 minutos)
+### BLOQUE 1. Activación de la creatividad y brainstorming (45 minutos)
 
-**Objetivo:** entender la diferencia entre creatividad, innovación y competencia digital, y practicar la generación de alternativas.
+**Objetivo:** entender la diferencia entre creatividad, innovación y competencia digital, y practicar la primera técnica creativa, el brainstorming, primero entre personas y después con IA.
+
+**Regla para todo el curso:** en cada técnica, **primero piensan las personas y después se pide ayuda a la IA**. Si la IA va primero, el grupo se «ancla» en sus propuestas y deja de pensar por su cuenta. Además, así se puede comparar qué aporta cada uno.
+
+**Ejemplo que acompaña a las tres técnicas.** Para explicar el brainstorming, SCAMPER y la provocación se usa siempre el mismo ejemplo, ajeno a los ejercicios: **una peluquería de barrio que da las citas solo por teléfono**. El teléfono suena mientras se atiende a los clientes, hay clientes que olvidan su cita y los lunes por la mañana la peluquería está vacía. Usar el mismo ejemplo deja ver qué tipo de ideas produce cada técnica.
 
 #### Minutos 0–10. Introducción y conexión con el mundo laboral
 
@@ -56,102 +61,218 @@ Al finalizar, cada participante podrá:
 
 Subrayar que la creatividad no se limita a ámbitos artísticos: también consiste en mejorar tareas cotidianas y procesos de trabajo.
 
-#### Minutos 10–20. Pensamiento divergente y convergente
+#### Minutos 10–15. Pensamiento divergente y convergente
 
-**Caso explicado en pizarra:** una tienda recibe quejas por las esperas.
-
-- **Pensamiento divergente:** proponer tantas soluciones distintas como sea posible: reserva de citas, turnos digitales, atención diferenciada, información previa, modificación de horarios, etc.
+- **Pensamiento divergente:** proponer tantas soluciones distintas como sea posible.
 - **Pensamiento convergente:** estudiar coste, viabilidad e impacto para elegir qué alternativa ensayar.
 
-**Idea clave:** primero se abre el abanico de posibilidades; después se compara y selecciona.
+**Idea clave:** primero se abre el abanico de posibilidades; después se compara y selecciona. Las tres técnicas del curso sirven para abrir el abanico; la matriz del bloque 3 sirve para cerrarlo.
 
-#### Minutos 20–35. Ejercicio 1: Diez soluciones en diez minutos
+#### Minutos 15–20. Brainstorming: explicación y ejemplo
 
-**Situación:** una academia recibe pocas solicitudes de información.
+**Qué es:** una sesión en grupo para generar el mayor número posible de ideas sobre un reto, dejando el juicio para después.
 
-1. **5 min, sin IA:** cada participante escribe cinco soluciones.
-2. **5 min, con IA:** pide cinco ideas adicionales sin repetir las propias.
-3. **5 min, puesta en común:** cada persona selecciona una idea útil y una original, explicando la diferencia.
+**Reglas:**
 
-**Prompt para proyectar:**
+1. Cantidad antes que calidad.
+2. No se critica ninguna idea durante la sesión.
+3. Se vale construir sobre la idea de otra persona («y además…»).
+4. Las ideas disparatadas son bienvenidas: a menudo llevan a ideas buenas.
+
+**Ejemplo:** *¿Cómo podríamos conseguir que la peluquería tenga clientes los lunes por la mañana?*
+
+- Descuento para quien reserve los lunes.
+- Lunes reservado a personas mayores, con café incluido.
+- Cortes gratis a estudiantes de una academia de peluquería, que practican supervisados.
+- Ofrecer el lunes a domicilio para residencias cercanas.
+- Sorteo mensual entre los clientes del lunes.
+- *(Disparatada)* Cerrar los sábados y abrir los lunes. → *(Construyendo sobre ella)* Repartir mejor la demanda: precio más bajo en los días flojos y más alto en los de más demanda.
+
+Mostrar que la última idea, que parecía absurda, conduce a una idea sensata.
+
+#### Minutos 20–30. Ejercicio 1, ronda sin IA: brainstorming entre todos
+
+**Reto:** *¿Cómo podríamos conseguir que más personas pidan información sobre los cursos de una academia de formación que recibe pocas solicitudes?*
+
+Entre todo el grupo, sin IA. El docente:
+
+- da el turno en rueda para que participen todas las personas y no solo las más extrovertidas (quien no tenga idea dice «paso» y se continúa);
+- apunta todas las ideas numeradas en la pizarra o en un documento compartido, sin comentarlas;
+- al final, cuenta el total.
+
+#### Minutos 30–38. Ejercicio 1, ronda con IA
+
+El docente proyecta la IA y pega la lista del grupo en el prompt:
 
 ```text
-Actúa como especialista en innovación de pequeñas empresas.
-Una academia de formación recibe pocas solicitudes de información.
-Propón 10 formas creativas de aumentar el interés de posibles alumnos,
-incluyendo soluciones digitales y de bajo coste.
-Evita repetir ideas convencionales y explica brevemente cada propuesta.
+Actúa como facilitador experto en sesiones de brainstorming para
+pequeñas empresas.
+
+Contexto: una academia de formación con cinco trabajadores y poco
+presupuesto recibe pocas solicitudes de información de posibles alumnos.
+
+Reto: ¿cómo podríamos conseguir que más personas pidan información
+sobre nuestros cursos?
+
+Nuestro grupo ya ha propuesto estas ideas:
+[pegar la lista del grupo]
+
+Tu tarea:
+1. Propón 15 ideas nuevas que no repitan ni reformulen las nuestras.
+2. Repártelas así: 5 de bajo coste que puedan aplicarse esta semana,
+   5 digitales y 5 poco convencionales o atrevidas.
+3. Escribe una sola línea por idea, sin explicaciones.
+4. No inventes cifras ni resultados.
 ```
 
-**Preguntas de seguimiento:** ¿La IA ofrece ideas mejores o simplemente más ideas? ¿Qué propuestas podrían aplicarse con pocos recursos? ¿Qué supuestos habría que comprobar?
+**Por qué funciona este prompt:** da un rol y un contexto concreto; incluye las ideas del grupo para que la IA no las repita; pide categorías para forzar la variedad (sin ellas, la IA tiende a dar 15 ideas muy parecidas), y limita el formato para que se pueda leer en voz alta.
 
-#### Minutos 35–45. Cierre del bloque
+**Segundo prompt, para combinar ideas humanas y de la IA** (la regla 3 del brainstorming aplicada al binomio):
 
-Puesta en común y conclusión: **la creatividad produce posibilidades; la innovación exige elegirlas, probarlas y convertirlas en mejoras reales**.
+```text
+Elige tres ideas de nuestro grupo y combina cada una con una de las
+tuyas para crear tres ideas mejores que las originales.
+Indica de qué dos ideas parte cada combinación y qué mejora aporta.
+```
+
+#### Minutos 38–45. Comparación y cierre del bloque
+
+Cada persona marca las tres ideas que le parecen más originales, sin fijarse en si vienen del grupo o de la IA. Después se revisa:
+
+| | Sin IA | Con IA |
+|---|---:|---:|
+| Número de ideas | | |
+| Ideas entre las más votadas | | |
+
+**Preguntas al grupo:** ¿la IA ha dado ideas mejores o solo más ideas? ¿Las combinaciones han mejorado las ideas de partida? ¿Qué propuestas podrían aplicarse con pocos recursos?
+
+**No adelantar la conclusión:** puede salir que la IA aporta más cantidad pero menos originalidad, o lo contrario. Lo importante es que el grupo lo compruebe con sus propios datos.
+
+**Conclusión del bloque:** la creatividad produce posibilidades; la innovación exige elegirlas, probarlas y convertirlas en mejoras reales.
 
 ---
 
-### BLOQUE 2. Técnicas de creatividad e innovación con IA (60 minutos)
+### BLOQUE 2. SCAMPER y provocación con IA (60 minutos)
 
-**Objetivo:** aplicar métodos estructurados para mejorar procesos profesionales y usar la IA como colaboradora crítica.
+**Objetivo:** aplicar dos técnicas estructuradas, primero sin IA y después con IA, sobre un mismo caso profesional, y seleccionar las tres mejores propuestas.
 
-#### Minutos 45–60. Técnica SCAMPER
+**Organización:** parejas. Cada pareja elige uno de estos casos y trabaja con él durante todo el bloque. Las tres propuestas que seleccione al final se evaluarán en la matriz del bloque 3.
 
-Explicar que SCAMPER permite transformar procesos existentes mediante siete preguntas:
+1. **Un comercio que pierde pedidos.** Los pedidos llegan por teléfono, WhatsApp y en el mostrador; se apuntan en una libreta y a veces se olvidan o se sirven tarde.
+2. **Una asociación que pierde tiempo organizando actividades.** Las actividades se anuncian por WhatsApp y las inscripciones se apuntan en una hoja de Excel que solo actualiza una persona; se pierden inscripciones y quedan plazas sin cubrir.
+3. **Una oficina que recibe siempre las mismas preguntas.** Por teléfono y por correo llegan a diario las mismas consultas (horarios, documentación, plazos) y el personal las responde una a una.
 
-| Técnica | Pregunta | Ejemplo profesional |
+#### Minutos 45–50. SCAMPER: explicación y ejemplo
+
+**Qué es:** una lista de siete preguntas para transformar un proceso o producto que ya existe. A diferencia del brainstorming, no parte de cero: obliga a mirar el proceso actual desde siete ángulos.
+
+**Ejemplo con la peluquería** (proceso actual: los clientes llaman por teléfono para pedir cita):
+
+| Letra | Pregunta | Ejemplo en la peluquería |
 |---|---|---|
-| Sustituir | ¿Qué podemos cambiar? | Pasar formularios de papel a digitales. |
-| Combinar | ¿Qué elementos podemos unir? | Integrar solicitudes y seguimiento de clientes. |
-| Adaptar | ¿Qué funciona en otro sector? | Aplicar cita previa a una academia. |
-| Modificar | ¿Qué podemos ampliar o reducir? | Acortar un formulario largo. |
-| Proponer otros usos | ¿Qué uso alternativo cabe? | Convertir preguntas frecuentes en guías. |
-| Eliminar | ¿Qué pasos sobran? | Suprimir una segunda introducción de datos. |
-| Reorganizar | ¿Qué orden podemos cambiar? | Recoger información antes de una visita. |
+| **S**ustituir | ¿Qué podemos cambiar por otra cosa? | Sustituir la llamada por una reserva por internet sencilla. |
+| **C**ombinar | ¿Qué elementos podemos unir? | Combinar la confirmación de la cita con un recordatorio el día anterior. |
+| **A**daptar | ¿Qué funciona en otro sector? | Adaptar la lista de espera de los restaurantes: avisar si queda un hueco libre. |
+| **M**odificar | ¿Qué podemos ampliar o reducir? | Reducir la llamada a tres preguntas fijas: servicio, día y hora. |
+| **P**roponer otros usos | ¿Para qué más puede servir? | Usar el recordatorio también para pedir una valoración del servicio. |
+| **E**liminar | ¿Qué pasos sobran? | Eliminar la llamada para confirmar la cita. |
+| **R**eorganizar | ¿Qué orden podemos cambiar? | Preguntar el servicio al reservar, para preparar el material antes de que llegue el cliente. |
 
-**Microdemostración:** aplicar una o dos preguntas SCAMPER a la gestión de consultas de una oficina.
+#### Minutos 50–62. Ejercicio 2, ronda sin IA: SCAMPER
 
-#### Minutos 60–75. Demostración con ChatGPT
+Por parejas, sobre el caso elegido: describir en tres o cuatro líneas cómo funciona hoy el proceso y escribir **al menos una idea por cada letra**.
 
-**Situación:** una empresa recibe peticiones mediante correos y hojas de cálculo; algunas se pierden.
+#### Minutos 62–72. Ejercicio 2, ronda con IA
 
 ```text
-Somos una pequeña empresa que gestiona las solicitudes de clientes
-mediante correos electrónicos y hojas de cálculo. Muchas solicitudes
-se pierden y resulta difícil hacer seguimiento.
-Aplica la técnica SCAMPER al proceso actual. Propón dos mejoras para
-cada una de las siete categorías, explicando el beneficio, la dificultad
-y los recursos necesarios. Evita soluciones que requieran comprar
-software costoso.
+Actúa como especialista en mejora de procesos de pequeñas empresas
+y organizaciones.
+
+Proceso actual: [describir en 3 o 4 líneas cómo se hace hoy, sin
+nombres ni datos personales].
+Problema: [qué falla y a quién afecta].
+Restricciones: sin comprar software caro, sin contratar personal
+y que pueda probarse en un mes.
+
+Ya hemos aplicado SCAMPER y tenemos estas ideas:
+[pegar las ideas de la pareja, indicando la letra de cada una]
+
+Aplica SCAMPER al proceso: para cada una de las siete letras, propón
+dos ideas que no repitan las nuestras.
+Preséntalo en una tabla con estas columnas: letra, idea, qué cambia
+en el proceso, beneficio principal y dificultad (baja, media o alta).
+No inventes cifras de ahorro ni de resultados.
 ```
 
-**En directo, reformular:**
+**Por qué funciona este prompt:** describe el proceso actual, que es la materia prima de SCAMPER; las restricciones evitan soluciones caras o irreales; la tabla obliga a la IA a concretar cada idea y facilita compararla con las de la pareja.
 
-- «Busca alternativas más económicas».
-- «Prioriza ideas que puedan probarse durante una semana».
-- «Detecta los inconvenientes de las tres mejores propuestas».
+**Iterar** con al menos una de estas peticiones:
+
+- «Descarta las ideas que requieran más de 100 € o conocimientos técnicos».
+- «Prioriza las ideas que puedan probarse en una semana».
+- «Señala los inconvenientes de las tres mejores ideas».
 
 **Mensaje docente:** un buen trabajo con IA es iterativo; no termina en el primer prompt.
 
-#### Minutos 75–95. Ejercicio 2: Rediseñar un proceso
+#### Minutos 72–77. Provocación: explicación y ejemplos
 
-**Organización:** parejas.
+**Qué es:** una técnica de pensamiento lateral de Edward de Bono. Se lanza una afirmación **deliberadamente absurda o imposible** que rompe una suposición que nadie cuestiona y después se hace el **movimiento**: extraer del absurdo un principio útil y convertirlo en una idea práctica. Mientras SCAMPER mejora lo que existe, la provocación sirve para salir de lo de siempre.
 
-Cada pareja elige uno de estos casos:
+**Tipos de provocación, con ejemplos en la peluquería:**
 
-1. Un comercio tiene dificultades para controlar pedidos.
-2. Una asociación pierde tiempo organizando actividades y participantes.
-3. Una oficina recibe siempre las mismas preguntas de los usuarios.
+| Tipo | Provocación | Movimiento: principio útil | Idea práctica |
+|---|---|---|---|
+| Inversión | «La peluquería llama a los clientes, y no al revés». | La peluquería puede tomar la iniciativa. | Al terminar cada servicio, proponer ya la fecha de la siguiente cita. |
+| Exageración | «Cada cliente viene todos los días». | Clientes con citas fijas y recurrentes. | Abono mensual con cita fija para clientes habituales. |
+| Eliminación | «La peluquería no tiene teléfono». | El teléfono no tiene por qué ser el canal principal. | Reservas por otros canales; el teléfono, solo para imprevistos. |
+| Deseo | «¿Y si el cliente supiera exactamente cuándo le toca, aunque llegue sin cita?» | Hacer visible la espera. | Turno visible en el móvil o en una pantalla en la puerta. |
 
-**Instrucciones:** describir el problema; pedir a la IA que aplique SCAMPER; escoger tres propuestas; justificar cada selección con criterios de coste, beneficio y facilidad de aplicación.
+**Advertencia para el docente:** el error típico es quedarse en la provocación y reírse. Sin movimiento no hay idea; insistir siempre en «¿y qué principio útil sacamos de esto?».
 
-**Entregable:** tabla sencilla con problema, tres ideas y razones de selección.
+#### Minutos 77–85. Ejercicio 3, ronda sin IA: provocación
 
-#### Minutos 95–105. Pensamiento crítico y seguridad
+Por parejas, sobre el mismo caso: escribir **tres provocaciones** (de tipos distintos) y hacer el movimiento de cada una hasta llegar a una idea práctica.
 
-Explicar que la IA puede sugerir soluciones inviables, inventar funciones o cifras y desconocer condicionantes reales. No introducir datos personales ni información confidencial en herramientas no autorizadas.
+#### Minutos 85–92. Ejercicio 3, ronda con IA
 
-**Actividad de cierre:** cada pareja pide a la IA que critique sus tres ideas, indique posibles obstáculos y sugiera una mejora. Comparar esas críticas con el propio criterio.
+```text
+Actúa como experto en pensamiento lateral y en la técnica de
+provocación de Edward de Bono.
+
+Situación: [describir el proceso actual y el problema, sin nombres
+ni datos personales].
+
+Paso 1. Escribe 6 provocaciones: afirmaciones deliberadamente absurdas
+o imposibles que rompan una suposición sobre esta situación. Incluye
+al menos una de cada tipo: inversión, exageración, eliminación y
+deseo («¿Y si…?»).
+Paso 2. Para cada provocación, haz el movimiento: explica qué
+principio útil puede extraerse de ella.
+Paso 3. Convierte cada principio en una idea práctica, realista
+y de bajo coste.
+
+Preséntalo en una tabla con cuatro columnas: tipo, provocación,
+principio útil e idea práctica.
+No repitas estas provocaciones nuestras: [pegar las de la pareja].
+```
+
+**Por qué funciona este prompt:** separa los tres pasos de la técnica para que la IA no salte directamente a una idea convencional; exige los cuatro tipos para forzar la variedad, y la tabla permite comprobar si el movimiento tiene sentido o solo suena bien.
+
+Cada pareja revisa la tabla: ¿el principio útil se deduce realmente de la provocación? ¿La idea práctica es aplicable o es un tópico?
+
+#### Minutos 92–100. Selección de las tres mejores propuestas
+
+Cada pareja reúne las ideas de SCAMPER y de la provocación, propias y de la IA, y elige **tres propuestas**, justificando cada una con criterios de coste, beneficio y facilidad de aplicación.
+
+**Entregable:** tabla sencilla con el problema, las tres propuestas, las razones de su selección y el origen de cada una (pareja, IA o combinación).
+
+Puesta en común rápida: ¿de dónde han salido las propuestas elegidas? ¿Qué técnica ha dado ideas más aplicables? ¿Y más originales?
+
+#### Minutos 100–105. Pensamiento crítico y seguridad
+
+Explicar que la IA puede sugerir soluciones inviables, inventar funciones o cifras y desconocer condicionantes reales. Por eso todos los prompts del bloque piden no inventar cifras, y por eso cada idea de la IA se revisa antes de aceptarla.
+
+No introducir datos personales ni información confidencial en herramientas no autorizadas: en los prompts se describe el proceso, nunca a las personas.
 
 ---
 
@@ -198,7 +319,7 @@ Puntuar cada alternativa del 1 al 5 con cuatro criterios:
 
 Copiar hacia abajo. Explicar que los resultados dependen de las puntuaciones y pesos elegidos; la matriz es una ayuda para razonar, no una prueba objetiva.
 
-#### Minutos 140–160. Ejercicio 3: Elegir con criterio
+#### Minutos 140–160. Ejercicio 4: Elegir con criterio
 
 Por parejas:
 
@@ -335,7 +456,7 @@ Aclarar que debe presentarse como **simulación formativa**, no como mejora real
 Preguntar oralmente:
 
 1. ¿En qué se diferencia una idea creativa de una innovación?
-2. ¿Para qué sirve SCAMPER?
+2. ¿Qué diferencia hay entre el brainstorming, SCAMPER y la provocación?
 3. ¿Qué ventaja ofrece una matriz de decisión?
 4. ¿Por qué no conviene aceptar sin revisar las respuestas de una IA?
 5. ¿Cómo mediríamos el resultado de una propuesta de mejora?
@@ -362,7 +483,7 @@ Pedir a cada participante una técnica que quiera aplicar en un futuro empleo.
 | Material | Contenido |
 |---|---|
 | Presentación | 30–40 diapositivas con conceptos, demostraciones, preguntas y actividades. |
-| Cuaderno de ejercicios | Instrucciones y espacios para resolver los tres ejercicios (bloques 1 a 3) y el proyecto integrado de Oficina Futuro (bloque 4). |
+| Cuaderno de ejercicios | Instrucciones y espacios para resolver los cuatro ejercicios (bloques 1 a 3), con espacio para las rondas sin IA y con IA, y el proyecto integrado de Oficina Futuro (bloque 4). |
 | Plantilla Excel / Sheets | Matriz de decisión y fórmulas de puntuación. |
 | Ficha del caso | Contexto y restricciones de Oficina Futuro. |
 | Plantilla Word / Docs | Estructura del proyecto de innovación. |

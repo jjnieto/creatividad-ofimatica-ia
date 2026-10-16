@@ -22,7 +22,7 @@ Tras cada cambio, hacer commit (mensaje en español) y `git push origin main` si
 6. Orientaciones metodológicas finales.
 7. Ejercicios de reserva: se usan en orden solo si sobra tiempo al final; son independientes, de 20–30 minutos con la corrección incluida, y cada uno lleva «Qué buscar al corregir». El primero es el caso de la comunidad de vecinos.
 
-Hilo conductor entre bloques: los ejercicios se reutilizan (las tres propuestas del Ejercicio 2 del bloque 2 se puntúan en la matriz del Ejercicio 3 del bloque 3), y el bloque 4 integra todo en el caso ficticio «Oficina Futuro», cuyos entregables (documento, matriz y tres diapositivas) se presentan en el bloque 5.
+Hilo conductor entre bloques: los ejercicios se reutilizan (las tres propuestas que cada pareja selecciona al final del bloque 2, a partir de SCAMPER y provocación, se puntúan en la matriz del Ejercicio 4 del bloque 3), y el bloque 4 integra todo en el caso ficticio «Oficina Futuro», cuyos entregables (documento, matriz y tres diapositivas) se presentan en el bloque 5.
 
 ## Coherencias que hay que mantener al editar
 
@@ -33,6 +33,8 @@ Hilo conductor entre bloques: los ejercicios se reutilizan (las tres propuestas 
 - **Herramientas:** se mencionan siempre por pares equivalentes (Word / Google Docs, Excel / Google Sheets, PowerPoint / Google Slides) y la IA de forma genérica.
 
 ## Convenciones de contenido
+
+- Técnicas creativas: brainstorming (bloque 1, entre todo el grupo), SCAMPER y provocación (bloque 2, por parejas). Cada una sigue el mismo patrón: explicación con el ejemplo común de la peluquería, ronda sin IA, ronda con IA con un prompt optimizado (seguido de «Por qué funciona este prompt») y comparación. Las personas siempre van antes que la IA.
 
 - Español de España con ortografía y tildes completas; tratamiento de «vosotros» al dirigirse al grupo.
 - Los prompts para proyectar van en bloques ```` ```text ````; las fórmulas en ```` ```excel ````.
