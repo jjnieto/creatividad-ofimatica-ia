@@ -93,6 +93,18 @@ Después, mostrar ejemplos de productos inspirados en el clip. Mensaje: **no se 
 
 #### Minutos 15–20. Brainstorming: explicación y ejemplo
 
+**Antes de la técnica, la regla del curso: primero las personas, después la IA.** Para explicar por qué, contar esta historia (un minuto):
+
+> Hay un programa para crear videojuegos, Unreal Engine 5, que lo hace casi todo solo: la luz, las sombras, los reflejos, el detalle de cada objeto. Con él, una persona desde su casa puede hacer un juego que parece de un gran estudio.
+>
+> Muchísima gente lo usó y dejó que el programa decidiera la luz y el aspecto del juego. Y pasó algo curioso: muchos juegos empezaron a parecerse entre sí. Técnicamente eran impecables, pero tenían todos el mismo aire. Los que llamaban la atención eran los que tenían un estilo propio, y ese estilo no lo pone la herramienta: lo pone la persona.
+>
+> Con la IA pasa lo mismo. Da ideas, resume y redacta muy bien. Pero si todos le preguntamos lo mismo, todos recibimos respuestas parecidas. Ya pasa con las cartas de presentación: las empresas reciben cientos que suenan iguales porque las ha escrito la misma IA.
+>
+> Las personas fallamos más y tenemos días malos. Pero la idea rara, la que nadie más tendría, es la que marca la diferencia, y esa suele salir de nosotros. Por eso: primero pensamos las personas y después usamos la IA para ampliar lo nuestro, no para sustituirlo.
+
+No afirmar que la IA es peor que las personas: el argumento es que, si todos usamos la misma herramienta, todos acabamos haciendo lo mismo. Así no se adelanta la conclusión de la comparación del Ejercicio 1.
+
 **Qué es:** una sesión en grupo para generar el mayor número posible de ideas sobre un reto, dejando el juicio para después.
 
 **Reglas:**
