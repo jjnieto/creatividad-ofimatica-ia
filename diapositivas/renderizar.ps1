@@ -15,5 +15,6 @@ foreach ($s in $p.Slides) {
   $i++
 }
 $p.Close()
-$pp.Quit()
+# PowerPoint es una única instancia: si el usuario tiene otras presentaciones abiertas, no se cierra.
+if ($pp.Presentations.Count -eq 0) { $pp.Quit() }
 Write-Output "$($i - 1) diapositivas en $out"

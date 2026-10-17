@@ -5,7 +5,7 @@ const {
   FaLightbulb, FaRocket, FaLaptop, FaUsers, FaRobot, FaPaperclip, FaRegClock, FaVolumeMute, FaPen,
   FaShoppingCart, FaHandPaper, FaCommentDots, FaStore, FaTable, FaCar, FaBoxOpen, FaLanguage,
   FaCut, FaPhone, FaCalendarTimes, FaChair, FaSyncAlt, FaCalculator, FaAnchor, FaBalanceScale,
-  FaPuzzlePiece, FaCoins, FaStar, FaCheck, FaRedoAlt, FaArrowRight,
+  FaPuzzlePiece, FaCoins, FaStar, FaCheck, FaRedoAlt, FaPlug, FaCookieBite, FaCubes, FaSeedling, FaMobileAlt, FaSign,
 } = require("react-icons/fa");
 const { HEX, W, M, crearPresentacion, etiqueta, iconoEnCirculo, linea, guardar } = require("./comun");
 
@@ -233,7 +233,47 @@ async function main() {
     s.addText("De todos esos usos, ¿cuál podría convertirse en un producto que alguien compraría?", { ...T, x: M + 2.4, y: 1.8, w: W - 2 * M - 2.8, h: 3.0, fontSize: 32, color: C.text1, valign: "middle", margin: 0 });
     await iconoEnCirculo(s, { x: M, y: 5.25, d: 0.6, Icon: FaHandPaper, relleno: C.text2, iconoHex: HEX.lt1, nombre: "Votación" });
     s.addText("Votación a mano alzada", { ...T, x: M + 0.8, y: 5.25, w: 8, h: 0.6, fontSize: 18, color: C.text1, valign: "middle", margin: 0 });
-    s.addNotes("Minutos 12–14. Votar un solo uso. No explicar todavía la teoría: la conclusión viene en la diapositiva siguiente, sobre lo que acaban de hacer.");
+    s.addNotes("Minutos 12–14. Votar un solo uso. Si al grupo no se le ocurre ningún producto, es normal: pasar a la diapositiva siguiente. No explicar todavía la teoría de divergir y converger: viene después, sobre lo que acaban de hacer.");
+  }
+
+  {
+    const s = pres.addSlide({ masterName: "CONTENIDO", sectionTitle: "Divergir y converger" });
+    s.addText("No vendemos el clip: vendemos su idea", { placeholder: "title" });
+    etiqueta(s, C, "Min. 12–14");
+    const principios = [
+      ["presion", "Sujetar por presión", C.accent3],
+      ["flexible", "Doblarse sin romperse", C.accent4],
+      ["unir", "Unir y separar fácilmente", C.text2],
+    ];
+    const colorDe = Object.fromEntries(principios.map(([k, , c]) => [k, c]));
+    s.addText("Del clip tomamos el concepto:", { ...T, x: M, y: 1.45, w: 3.4, h: 0.5, fontSize: 18, bold: true, color: C.text1, valign: "middle", margin: 0 });
+    principios.forEach(([, txt, relleno], i) => {
+      const x = 3.85 + i * 2.95;
+      s.addShape("roundRect", { x, y: 1.45, w: 2.75, h: 0.5, rectRadius: 0.25, fill: { color: relleno }, line: { type: "none" }, objectName: txt });
+      s.addText(txt, { ...T, x, y: 1.45, w: 2.75, h: 0.5, fontSize: 15, bold: true, color: C.background1, align: "center", valign: "middle", margin: 0 });
+    });
+    const productos = [
+      [FaPlug, "flexible", "Organizador de cables", "Pieza de silicona que agrupa los cargadores y evita enredos.", "Teletrabajadores y viajeros"],
+      [FaCookieBite, "presion", "Cierre para alimentos", "Pinza grande y reutilizable que mantiene cerrados los envases abiertos.", "Familias y tiendas de alimentación"],
+      [FaCubes, "unir", "Conectores para muebles", "Piezas de presión para montar y desmontar estructuras sin tornillos.", "Feriantes y pequeños comercios"],
+      [FaSeedling, "presion", "Sujetaplantas", "Abrazadera que guía los tallos sin dañarlos.", "Jardinería y viveros"],
+      [FaMobileAlt, "flexible", "Soporte para el móvil", "Alambre flexible recubierto que mantiene el teléfono inclinado.", "Estudiantes y profesionales"],
+      [FaSign, "unir", "Carteles sin agujeros", "Pinzas grandes para cambiar carteles sin perforar paredes ni mostradores.", "Comercios y ferias"],
+    ];
+    const gap = 0.3;
+    const w = (W - 2 * M - 2 * gap) / 3;
+    const h = 2.0;
+    for (const [i, [Icon, principio, nombre, desc, para]] of productos.entries()) {
+      const x = M + (i % 3) * (w + gap);
+      const y = 2.25 + Math.floor(i / 3) * (h + 0.2);
+      tarjeta(s, x, y, w, h, C.background2, nombre);
+      await iconoEnCirculo(s, { x: x + 0.25, y: y + 0.22, d: 0.7, Icon, relleno: colorDe[principio], iconoHex: HEX.lt1, nombre });
+      s.addText(nombre, { ...T, x: x + 1.1, y: y + 0.22, w: w - 1.3, h: 0.7, fontSize: 18, bold: true, color: C.text1, valign: "middle", margin: 0 });
+      s.addText(desc, { ...T, x: x + 0.25, y: y + 1.0, w: w - 0.5, h: 0.62, fontSize: 14, color: C.text1, valign: "top", margin: 0 });
+      s.addText([{ text: "Para: ", options: { bold: true } }, { text: para }], { ...T, x: x + 0.25, y: y + 1.6, w: w - 0.5, h: 0.32, fontSize: 12, italic: true, color: C.text2, valign: "top", margin: 0 });
+    }
+    s.addText("Casi todos tienen ya productos parecidos a la venta: el concepto de clip sí se vende.", { ...T, x: M, y: 6.5, w: W - 2 * M, h: 0.38, fontSize: 16, bold: true, color: C.accent3, margin: 0 });
+    s.addNotes("Mostrar después de la votación. Mensaje: nadie compraría un clip de papelería por muy original que sea su uso; lo que se vende es el concepto del clip (sujetar por presión, doblarse sin romperse, unir y separar fácilmente) aplicado a otro tamaño, material o problema. El color de cada icono indica qué principio del clip aprovecha.\n\nLas ideas se generaron con IA. Según la IA, para casi todas existen productos parecidos en el mercado (organizadores de cables de silicona, cierres para bolsas, clips para plantas, sistemas de conexión rápida, soportes plegables para móviles, pinzas para cartelería); conviene comprobarlo antes de afirmarlo en clase.\n\nEnlaza con la técnica SCAMPER del bloque 2: Adaptar (llevar el concepto a otro sector) y Modificar (cambiar tamaño o material).");
   }
 
   {

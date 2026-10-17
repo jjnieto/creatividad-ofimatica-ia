@@ -120,7 +120,8 @@ function linea(slide, x1, y1, x2, y2, opciones) {
 
 async function guardar(pres, nombreArchivo) {
   const { applyTheme } = require(process.env.APPLY_THEME || path.join(__dirname, "apply_theme.js"));
-  const destino = path.join(__dirname, nombreArchivo);
+  // SALIDA permite generar en otra ruta (por ejemplo, si el .pptx está abierto en PowerPoint).
+  const destino = process.env.SALIDA || path.join(__dirname, nombreArchivo);
   await pres.writeFile({ fileName: destino });
   await applyTheme(destino, THEME);
   return destino;

@@ -82,6 +82,8 @@ Subrayar que la creatividad no se limita a ámbitos artísticos: también consis
 
 **Minutos 12–14. Elegir.** Preguntar al grupo: de todos esos usos, ¿cuál podría convertirse en un producto que alguien compraría? Votar uno.
 
+Después, mostrar ejemplos de productos inspirados en el clip. Mensaje: **no se trata de vender un clip de papelería, sino de aprovechar su concepto** (sujetar por presión, doblarse sin romperse, unir y separar fácilmente) con otro tamaño, material o uso. Ejemplos: organizador de cables de silicona, cierre reutilizable para alimentos, conectores para montar muebles sin tornillos, sujetaplantas, soporte flexible para el móvil y pinzas para cambiar carteles sin perforar. Para casi todos existen ya productos parecidos a la venta.
+
 **Minutos 14–15. Conclusión del docente:**
 
 - Lo primero ha sido **pensamiento divergente:** proponer tantas soluciones distintas como sea posible, sin juzgar.
