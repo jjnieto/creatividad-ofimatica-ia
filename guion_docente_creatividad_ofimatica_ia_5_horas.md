@@ -251,6 +251,8 @@ No inventes cifras de ahorro ni de resultados.
 
 **Mensaje docente:** un buen trabajo con IA es iterativo; no termina en el primer prompt.
 
+**Últimos minutos del tramo: conclusiones de SCAMPER.** Cada pareja cuenta en unos 30 segundos su mejor idea sin IA, la mejor idea que le ha dado la IA y algo que la IA no haya entendido de su caso. Con ocho parejas son unos cuatro minutos; si no da tiempo, que hablen solo tres o cuatro. Cerrar con la pregunta para todos: ¿qué ha aportado la IA que no se os hubiera ocurrido? Sin adelantar la conclusión.
+
 #### Minutos 72–77. Provocación: explicación y ejemplos
 
 **Qué es:** una técnica de pensamiento lateral de Edward de Bono. Se lanza una afirmación **deliberadamente absurda o imposible** que rompe una suposición que nadie cuestiona y después se hace el **movimiento**: extraer del absurdo un principio útil y convertirlo en una idea práctica. Mientras SCAMPER mejora lo que existe, la provocación sirve para salir de lo de siempre.
