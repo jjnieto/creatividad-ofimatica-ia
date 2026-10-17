@@ -47,13 +47,15 @@ Al finalizar, cada participante podrá:
 
 **Ejemplo que acompaña a las tres técnicas.** Para explicar el brainstorming, SCAMPER y la provocación se usa siempre el mismo ejemplo, ajeno a los ejercicios: **una peluquería de barrio que da las citas solo por teléfono**. El teléfono suena mientras se atiende a los clientes, hay clientes que olvidan su cita y los lunes por la mañana la peluquería está vacía. Usar el mismo ejemplo deja ver qué tipo de ideas produce cada técnica.
 
-#### Minutos 0–10. Introducción y conexión con el mundo laboral
+#### Minutos 0–10. Introducción: ¿creatividad, innovación o competencia digital?
 
-**Pregunta de apertura al grupo:**
+**Minutos 0–3. Pregunta de apertura.**
 
 > Imaginad que mañana empezáis a trabajar en una empresa. Os dicen que hay un procedimiento que siempre se ha hecho de la misma forma, pero que consume muchísimo tiempo. ¿Os limitaríais a repetirlo o intentaríais encontrar una manera mejor?
 
-**Explicación del docente:**
+Votación a mano alzada. Después, pedir a dos o tres voluntarios que cuenten en una frase alguna mejora que vieran (o hicieran) en un trabajo anterior: «antes se hacía así y alguien lo cambió por…». Servirán de ejemplos durante la explicación.
+
+**Minutos 3–5. Explicación del docente:**
 
 - **Creatividad:** producir ideas nuevas y útiles. Ejemplo: imaginar nuevas formas de atender clientes.
 - **Innovación:** poner en práctica una mejora que aporta valor. Ejemplo: implantar citas previas para reducir esperas.
@@ -61,12 +63,31 @@ Al finalizar, cada participante podrá:
 
 Subrayar que la creatividad no se limita a ámbitos artísticos: también consiste en mejorar tareas cotidianas y procesos de trabajo.
 
+**Minutos 5–10. Actividad: clasificar situaciones.** Proyectar estas seis situaciones. Para cada una, el grupo vota con los dedos: **1** = creatividad, **2** = innovación, **3** = competencia digital. Cuando haya votos repartidos, preguntar a una persona de cada opción por qué.
+
+| Situación | Respuesta orientativa |
+|---|---|
+| 1. Una dependienta propone en una reunión que los clientes puedan reservar por WhatsApp. | Creatividad: es una idea, todavía no se ha aplicado. |
+| 2. La tienda pone en marcha las reservas por WhatsApp y las esperas se reducen. | Innovación: se ha aplicado y aporta valor. |
+| 3. Un administrativo usa una tabla dinámica para resumir las ventas del mes. | Competencia digital. |
+| 4. Un taller empieza a enviar al cliente una foto del coche reparado y recibe menos llamadas preguntando. | Innovación. |
+| 5. A un empleado se le ocurre usar las cajas de los pedidos como expositor en el mostrador. | Creatividad; si se pone en práctica y funciona, innovación. |
+| 6. Una camarera usa una IA para traducir la carta al inglés. | Competencia digital; sería innovación si cambiara cómo se atiende a los clientes extranjeros. |
+
+**Criterio para resolver las dudas:** ¿es solo una idea o ya se ha puesto en práctica? ¿Aporta valor? Las situaciones 5 y 6 son discutibles a propósito: lo importante es el razonamiento, no acertar.
+
 #### Minutos 10–15. Pensamiento divergente y convergente
 
-- **Pensamiento divergente:** proponer tantas soluciones distintas como sea posible.
-- **Pensamiento convergente:** estudiar coste, viabilidad e impacto para elegir qué alternativa ensayar.
+**Minutos 10–12. Actividad: ¿para qué sirve un clip?** Cada persona, en silencio y por escrito, anota en 90 segundos todos los usos que se le ocurran para un clip. Después, cada una dice cuántos ha escrito y quien tenga más lee su lista.
 
-**Idea clave:** primero se abre el abanico de posibilidades; después se compara y selecciona. Las tres técnicas del curso sirven para abrir el abanico; la matriz del bloque 3 sirve para cerrarlo.
+**Minutos 12–14. Elegir.** Preguntar al grupo: de todos esos usos, ¿cuál podría convertirse en un producto que alguien compraría? Votar uno.
+
+**Minutos 14–15. Conclusión del docente:**
+
+- Lo primero ha sido **pensamiento divergente:** proponer tantas soluciones distintas como sea posible, sin juzgar.
+- Lo segundo, **pensamiento convergente:** estudiar coste, viabilidad e impacto para elegir qué alternativa ensayar.
+
+**Idea clave:** primero se abre el abanico de posibilidades; después se compara y selecciona. Si se mezclan los dos pasos, se juzga demasiado pronto y salen pocas ideas. Las tres técnicas del curso sirven para abrir el abanico; la matriz del bloque 3 sirve para cerrarlo.
 
 #### Minutos 15–20. Brainstorming: explicación y ejemplo
 
@@ -270,9 +291,20 @@ Puesta en común rápida: ¿de dónde han salido las propuestas elegidas? ¿Qué
 
 #### Minutos 100–105. Pensamiento crítico y seguridad
 
-Explicar que la IA puede sugerir soluciones inviables, inventar funciones o cifras y desconocer condicionantes reales. Por eso todos los prompts del bloque piden no inventar cifras, y por eso cada idea de la IA se revisa antes de aceptarla.
+**Minutos 100–103. Actividad: ¿qué falla aquí?** Proyectar este prompt y esta respuesta de una IA sobre la peluquería del ejemplo. Por parejas, detectar todos los problemas.
 
-No introducir datos personales ni información confidencial en herramientas no autorizadas: en los prompts se describe el proceso, nunca a las personas.
+> **Prompt:** «Nuestra clienta María García Ruiz, de la calle Mayor 12, falta siempre a sus citas y no paga las anulaciones. ¿Cómo reducimos las ausencias?»
+>
+> **Respuesta de la IA:** «Según un estudio de la Universidad de Salamanca de 2023, enviar recordatorios reduce las ausencias un 47 %. Os recomiendo activar la función de recordatorios automáticos gratuita que incluye vuestra aplicación de mensajería. También podéis cobrar una fianza del 50 % al reservar; es la práctica habitual en todas las peluquerías».
+
+**Minutos 103–105. Corrección:**
+
+- **Datos personales en el prompt:** nombre, apellidos y dirección de una clienta. Bastaba con decir «algunos clientes faltan a sus citas».
+- **Estudio y cifra sin verificar:** pueden ser inventados. Hay que comprobar la fuente antes de usarlos.
+- **Función que puede no existir:** antes de proponerla, hay que comprobar que la herramienta la tiene y que es gratuita.
+- **Generalización falsa:** «la práctica habitual en todas las peluquerías» no está demostrado, y una fianza puede ahuyentar a clientes.
+
+**Mensaje docente:** la IA puede sugerir soluciones inviables, inventar funciones, cifras o estudios y desconocer condicionantes reales. Por eso los prompts del curso piden no inventar cifras y cada idea de la IA se revisa antes de aceptarla. En los prompts se describe el proceso, nunca a las personas.
 
 ---
 
@@ -282,7 +314,7 @@ No introducir datos personales ni información confidencial en herramientas no a
 
 #### Minutos 105–120. Word / Google Docs: convertir una idea en propuesta
 
-**Demostración:** crear un documento profesional de una página con título, problema, solución, destinatarios, recursos, beneficios y riesgos.
+**Minutos 105–110. Demostración:** crear un documento profesional de una página con título, problema, solución, destinatarios, recursos, beneficios y riesgos.
 
 **Ejemplo:**
 
@@ -296,7 +328,23 @@ No introducir datos personales ni información confidencial en herramientas no a
 
 **Demostración de IA:** solicitar una versión más clara y concisa, y decidir qué propuestas de edición aceptar o rechazar.
 
-#### Minutos 120–140. Excel / Google Sheets: matriz de decisión
+**Minutos 110–120. Actividad: ficha exprés.** Por parejas, con la mejor de sus tres propuestas del bloque 2:
+
+1. Pedir a la IA una ficha de una página con los mismos apartados del ejemplo:
+
+   ```text
+   Redacta una ficha de propuesta de una página con estos apartados:
+   proyecto, problema, solución, beneficios esperados, recursos y riesgos.
+   La propuesta es: [describir la propuesta sin datos personales].
+   Usa frases cortas y no inventes cifras ni resultados.
+   ```
+
+2. Pasarla a Word o Google Docs y marcar **tres cosas que cambiarían** (algo que sobra, algo que falta y algo que no es cierto o no está justificado).
+3. Corregirlas.
+
+En la puesta en común, dos o tres parejas cuentan qué han cambiado y por qué. Esta ficha servirá de borrador para el documento del bloque 4.
+
+#### Minutos 120–128. Excel / Google Sheets: matriz de decisión
 
 Puntuar cada alternativa del 1 al 5 con cuatro criterios:
 
@@ -305,11 +353,15 @@ Puntuar cada alternativa del 1 al 5 con cuatro criterios:
 - Bajo coste: **20 %** (5 = muy económica).
 - Originalidad: **15 %**.
 
+**Actividad: calculadlo vosotros (3 minutos).** Proyectar la tabla con la columna «Resultado» vacía. Por parejas, con la calculadora del móvil, calcular el resultado de una propuesta (cada pareja la que le indique el docente). Después, mostrar los resultados:
+
 | Propuesta | Impacto | Viabilidad | Bajo coste | Originalidad | Resultado |
 |---|---:|---:|---:|---:|---:|
 | Formulario digital | 4 | 5 | 5 | 3 | 4,35 |
 | Chatbot informativo | 4 | 3 | 2 | 4 | 3,30 |
 | Panel de seguimiento | 5 | 4 | 4 | 3 | 4,20 |
+
+Una vez hecho a mano, se entiende lo que hace la fórmula.
 
 **Fórmula para la celda F2** (si las puntuaciones están en B2:E2):
 
@@ -319,7 +371,7 @@ Puntuar cada alternativa del 1 al 5 con cuatro criterios:
 
 Copiar hacia abajo. Explicar que los resultados dependen de las puntuaciones y pesos elegidos; la matriz es una ayuda para razonar, no una prueba objetiva.
 
-#### Minutos 140–160. Ejercicio 4: Elegir con criterio
+#### Minutos 128–160. Ejercicio 4: Elegir con criterio
 
 Por parejas:
 
@@ -328,12 +380,25 @@ Por parejas:
 3. Ordenar las soluciones por resultado.
 4. Discutir si la primera opción les parece realmente la más adecuada.
 5. Cambiar los pesos (manteniendo el 100 % total), dando más importancia al coste, y observar si varía la clasificación.
+6. Pedir a la IA que revise la matriz y comprobar si sus observaciones son correctas:
+
+   ```text
+   Te paso una matriz de decisión con tres propuestas, cuatro criterios
+   puntuados del 1 al 5 y sus pesos: [pegar la tabla con los pesos].
+   Revísala: comprueba si los cálculos son correctos, si alguna
+   puntuación parece incoherente con la descripción de la propuesta
+   y si falta algún criterio importante. Justifica cada observación.
+   ```
+
+**Puesta en común (últimos 5 minutos):** ¿ha cambiado la clasificación al modificar los pesos? ¿Tenía razón la IA en sus observaciones o se ha equivocado en algo?
 
 **Entregable:** hoja de cálculo con decisiones argumentadas.
 
 #### Minutos 160–165. Síntesis
 
 Secuencia a recordar: **detectar → idear → documentar → comparar → decidir**.
+
+**Actividad: ronda rápida.** Cada pareja dice en una frase qué paso de la secuencia le ha costado más hasta ahora y por qué. El docente anota las respuestas: indican en qué insistir durante el bloque 4.
 
 ---
 
@@ -353,6 +418,21 @@ Secuencia a recordar: **detectar → idear → documentar → comparar → decid
 - Se producen errores al trasladar datos entre documentos.
 
 **Encargo:** proponer una mejora con herramientas de bajo coste, sin contratar personal adicional. Las cifras del caso son supuestos didácticos, no datos medidos.
+
+**Minutos 165–168.** Las parejas leen el caso.
+
+**Minutos 168–175. Actividad: preguntas a la gerencia.** Antes de proponer nada, hay que entender el problema. El docente hace de gerente de Oficina Futuro y cada pareja puede hacerle **una pregunta**. Respuestas preparadas para las preguntas más probables:
+
+| Pregunta probable | Respuesta del gerente |
+|---|---|
+| ¿Por qué canales llegan las consultas? | Teléfono, correo, WhatsApp y algunas en persona. |
+| ¿Qué preguntan más? | Fechas de inicio, precios, requisitos de acceso y si quedan plazas. |
+| ¿Quién las responde? | Quien esté libre en ese momento; no hay nadie asignado. |
+| ¿Dónde están los datos de los clientes? | En varias hojas de Excel, en el correo y en una libreta de recepción. |
+| ¿Qué herramientas tenéis? | Paquete ofimático con correo, hojas de cálculo compartidas y un teléfono móvil de empresa. |
+| ¿Cuál es el presupuesto? | Muy pequeño: lo que se pueda hacer con lo que ya tenemos o con algo muy barato. |
+
+Si preguntan algo que no está previsto, el docente responde con coherencia o dice «no lo sabemos», que también es realista. Al terminar, votar a mano alzada qué problema del caso tiene más impacto.
 
 #### Minutos 175–190. Generación y elección de propuestas
 
@@ -411,13 +491,21 @@ En PowerPoint o Slides:
 
 #### Minutos 240–250. Cómo defender una idea
 
-**Estructura sugerida de una presentación oral:**
+**Minutos 240–244. Actividad: ¿cuál convence más?** El docente lee dos versiones de la misma propuesta y el grupo dice cuál aprobaría y por qué.
+
+> **Versión A:** «Proponemos usar formularios de Google, una hoja de cálculo compartida y un chatbot con IA. Es muy moderno, es gratis y todas las empresas lo están usando».
+>
+> **Versión B:** «Oficina Futuro pierde consultas porque llegan por cuatro canales y nadie se encarga de ellas. Proponemos un formulario único que guarde cada consulta en una hoja compartida, con una persona responsable cada día. Lo probaríamos un mes y mediríamos cuántas consultas quedan sin respuesta».
+
+La versión A habla de herramientas y hace afirmaciones sin justificar; la B parte del problema, explica la solución y dice cómo se medirá. De ahí sale la estructura:
 
 - ¿Qué problema hemos identificado?
 - ¿Por qué conviene resolverlo?
 - ¿Qué proponemos?
 - ¿Cómo lo pondríamos en práctica?
 - ¿Qué resultados esperaríamos y cómo los mediríamos?
+
+**Minutos 244–250. Ensayo.** Cada pareja prepara y ensaya en voz baja la primera frase de su presentación (el problema en 20 segundos), siguiendo la versión B como modelo.
 
 #### Minutos 250–275. Presentaciones y comentarios
 
@@ -450,6 +538,8 @@ Explicar que el trabajo realizado permite demostrar identificación de problemas
 > En una actividad de innovación digital analicé un proceso administrativo, utilicé técnicas creativas e inteligencia artificial para generar alternativas y elaboré una matriz en Excel para evaluarlas. Después documenté una solución y preparé una presentación para defenderla.
 
 Aclarar que debe presentarse como **simulación formativa**, no como mejora realmente implantada en una empresa.
+
+**Actividad: mi relato.** Cada persona escribe su propio relato de tres o cuatro líneas, adaptando el ejemplo al trabajo que ha hecho su pareja y al tipo de puesto al que aspira (5 minutos). Después, tres o cuatro voluntarios lo leen en voz alta y el grupo propone una mejora para cada uno. Comprobar que nadie presenta la simulación como un logro real.
 
 #### Minutos 295–300. Comprobación final
 
