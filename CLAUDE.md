@@ -8,6 +8,22 @@ No es un proyecto de software: no hay build, lint ni tests. Contiene material do
 
 El único documento actual es `guion_docente_creatividad_ofimatica_ia_5_horas.md`.
 
+## Diapositivas
+
+Las presentaciones de apoyo están en `diapositivas/`, una por bloque (`bloqueN.pptx`), generadas con `pptxgenjs` a partir de un script por bloque. El guion es la fuente: si cambia, se modifica el script y se regenera el `.pptx`; no se editan los `.pptx` a mano.
+
+```bash
+cd diapositivas
+npm install                      # solo la primera vez
+node bloque1.js                  # genera bloque1.pptx
+powershell -ExecutionPolicy Bypass -File renderizar.ps1 bloque1.pptx render   # PNG por diapositiva con PowerPoint, para revisarlas
+```
+
+- `comun.js`: tema (colores y fuentes), layouts (`PORTADA`, `SECCION`, `CONTENIDO`, `DESTACADO`) y piezas reutilizables (`etiqueta`, `iconoEnCirculo`, `linea`, `guardar`). `apply_theme.js` escribe los colores del tema en el `.pptx` tras generarlo.
+- Código de color fijo en todo el curso: **ámbar = trabajo de las personas (sin IA), verde azulado = IA**. Cada diapositiva de contenido lleva arriba a la derecha una etiqueta con los minutos del guion y la modalidad.
+- Las indicaciones para el docente (tiempos, respuestas orientativas) van en las notas del orador, no en la diapositiva.
+- Al generar, validar con el script `validate.py` de la skill de pptx y revisar las imágenes renderizadas.
+
 ## Flujo de trabajo con git
 
 Tras cada cambio, hacer commit (mensaje en español) y `git push origin main` sin pedir confirmación. Se trabaja directamente en `main`; el remoto es `https://github.com/jjnieto/creatividad-ofimatica-ia`.
