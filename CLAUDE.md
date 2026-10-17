@@ -10,13 +10,16 @@ El único documento actual es `guion_docente_creatividad_ofimatica_ia_5_horas.md
 
 ## Diapositivas
 
-Las presentaciones de apoyo están en `diapositivas/`, una por bloque (`bloqueN.pptx`), generadas con `pptxgenjs` a partir de un script por bloque. El guion es la fuente: si cambia, se modifica el script y se regenera el `.pptx`; no se editan los `.pptx` a mano.
+Las presentaciones de apoyo están en `diapositivas/`, una por bloque (`bloqueN.pptx`). La primera versión de cada una se genera con `pptxgenjs` a partir de un script por bloque (`bloqueN.js`).
+
+**El PowerPoint manda.** El usuario edita los `.pptx` a mano en PowerPoint. Un `.pptx` existente **nunca se regenera**: los cambios se hacen editando el archivo en el sitio (añadir o modificar diapositivas concretas) y conservando todo lo demás. Antes de tocarlo, el usuario debe guardarlo y cerrarlo, y se hace commit de su versión tal cual. `guardar()` en `comun.js` se niega a sobrescribir un `.pptx` que ya existe. Los scripts `bloqueN.js` quedan como registro de la primera versión y ya no reflejan el contenido actual del `.pptx`.
 
 ```bash
 cd diapositivas
 npm install                      # solo la primera vez
-node bloque1.js                  # genera bloque1.pptx
-powershell -ExecutionPolicy Bypass -File renderizar.ps1 bloque1.pptx render   # PNG por diapositiva con PowerPoint, para revisarlas
+node bloqueN.js                  # primera versión de bloqueN.pptx (falla si ya existe)
+SALIDA=/ruta/prueba.pptx node bloqueN.js   # generar en otra ruta sin tocar el original
+powershell -ExecutionPolicy Bypass -File renderizar.ps1 bloqueN.pptx render   # PNG por diapositiva con PowerPoint, para revisarlas
 ```
 
 - `comun.js`: tema (colores y fuentes), layouts (`PORTADA`, `SECCION`, `CONTENIDO`, `DESTACADO`) y piezas reutilizables (`etiqueta`, `iconoEnCirculo`, `linea`, `guardar`). `apply_theme.js` escribe los colores del tema en el `.pptx` tras generarlo.

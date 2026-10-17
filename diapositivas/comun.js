@@ -122,6 +122,11 @@ async function guardar(pres, nombreArchivo) {
   const { applyTheme } = require(process.env.APPLY_THEME || path.join(__dirname, "apply_theme.js"));
   // SALIDA permite generar en otra ruta (por ejemplo, si el .pptx está abierto en PowerPoint).
   const destino = process.env.SALIDA || path.join(__dirname, nombreArchivo);
+  // El .pptx que ya existe puede tener ediciones hechas a mano en PowerPoint: nunca se sobrescribe.
+  // Para generar una versión nueva sin tocarlo, usar SALIDA con otra ruta.
+  if (require("fs").existsSync(destino)) {
+    throw new Error(`${destino} ya existe y puede tener ediciones manuales: no se sobrescribe. Edita el .pptx en el sitio o genera en otra ruta con SALIDA.`);
+  }
   await pres.writeFile({ fileName: destino });
   await applyTheme(destino, THEME);
   return destino;
