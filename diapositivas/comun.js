@@ -45,14 +45,14 @@ async function icono(Icon, hex, size = 256) {
   return cacheIconos.get(clave);
 }
 
-function crearPresentacion({ bloque, tituloBloque }) {
+function crearPresentacion({ bloque, tituloBloque, pie: pieFijo, titulo }) {
   const pres = new pptxgen();
   pres.layout = "LAYOUT_WIDE";
   pres.theme = { headFontFace: THEME.headFontFace, bodyFontFace: THEME.bodyFontFace };
-  pres.title = `Bloque ${bloque}. ${tituloBloque}`;
+  pres.title = titulo || `Bloque ${bloque}. ${tituloBloque}`;
   pres.subject = "Desarrollo de las habilidades creativas e innovadoras con herramientas ofimáticas y de inteligencia artificial";
   const C = pres.SchemeColor;
-  const pie = `Bloque ${bloque} · ${tituloBloque}`;
+  const pie = pieFijo || `Bloque ${bloque} · ${tituloBloque}`;
 
   pres.defineSlideMaster({
     title: "PORTADA",

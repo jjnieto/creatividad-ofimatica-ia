@@ -105,6 +105,8 @@ Después, mostrar ejemplos de productos inspirados en el clip. Mensaje: **no se 
 
 No afirmar que la IA es peor que las personas: el argumento es que, si todos usamos la misma herramienta, todos acabamos haciendo lo mismo. Así no se adelanta la conclusión de la comparación del Ejercicio 1.
 
+Hay una versión ampliada de esta historia (8–10 minutos), con el estudio de *Science Advances* sobre IA y creatividad, el contraejemplo de *Clair Obscur: Expedition 33* y las fuentes, en la presentación aparte `diapositivas/historia_unreal.pptx`. Si se usa, hay que sacar el tiempo de otro tramo.
+
 **Qué es:** una sesión en grupo para generar el mayor número posible de ideas sobre un reto, dejando el juicio para después.
 
 **Reglas:**
