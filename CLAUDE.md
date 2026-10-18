@@ -24,6 +24,7 @@ powershell -ExecutionPolicy Bypass -File renderizar.ps1 bloqueN.pptx render   # 
 
 - `comun.js`: tema (colores y fuentes), layouts (`PORTADA`, `SECCION`, `CONTENIDO`, `DESTACADO`) y piezas reutilizables (`etiqueta`, `iconoEnCirculo`, `linea`, `guardar`). `apply_theme.js` escribe los colores del tema en el `.pptx` tras generarlo.
 - Código de color fijo en todo el curso: **ámbar = trabajo de las personas (sin IA), verde azulado = IA**. Cada diapositiva de contenido lleva arriba a la derecha una etiqueta con los minutos del guion y la modalidad.
+- `prologo.pptx` (script `prologo.js`) y las tres presentaciones de los ejercicios de reserva, `reservaN_*.pptx`, que se generan con un único script, `reservas.js`.
 - `historia_unreal.pptx` (script `historia_unreal.js`) es una presentación aparte, de apoyo a la regla «primero las personas»: la historia de Unreal Engine 5 con fuentes. El repositorio es público: no se incluyen capturas con derechos de autor, sino huecos señalados para que el docente las pegue.
 - Las indicaciones para el docente (tiempos, respuestas orientativas) van en las notas del orador, no en la diapositiva.
 - Al generar, validar con el script `validate.py` de la skill de pptx y revisar las imágenes renderizadas.
