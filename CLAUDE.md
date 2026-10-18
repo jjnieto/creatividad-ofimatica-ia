@@ -42,7 +42,7 @@ Tras cada cambio, hacer commit (mensaje en español) y `git push origin main` si
 6. Orientaciones metodológicas finales.
 7. Ejercicios de reserva: se usan en orden solo si sobra tiempo al final; son independientes, de 20–30 minutos con la corrección incluida, y cada uno lleva «Qué buscar al corregir». El primero es el caso de la comunidad de vecinos.
 
-Hilo conductor entre bloques: los ejercicios se reutilizan (las tres propuestas que cada pareja selecciona al final del bloque 2, a partir de SCAMPER y provocación, se puntúan en la matriz del Ejercicio 4 del bloque 3), y el bloque 4 integra todo en el caso ficticio «Oficina Futuro», cuyos entregables (documento, matriz y tres diapositivas) se presentan en el bloque 5.
+Hilo conductor entre bloques: continuidad completa sobre el trabajo de cada pareja. En el bloque 2 elige un caso, genera ideas con SCAMPER y provocación y selecciona tres propuestas; en el bloque 3 las compara con la matriz (Ejercicio 4), elige la ganadora y redacta su ficha exprés; en el bloque 4 la desarrolla (documento, indicadores y tres diapositivas), y en el bloque 5 la defiende. Oficina Futuro ya no forma parte del recorrido: es el ejercicio de reserva 2.
 
 ## Coherencias que hay que mantener al editar
 

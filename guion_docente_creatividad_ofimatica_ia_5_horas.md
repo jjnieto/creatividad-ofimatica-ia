@@ -28,8 +28,8 @@ Al finalizar, cada participante podrá:
 |---|---|---:|---:|
 | 1 | Activación de la creatividad y brainstorming | 45 min | 0–45 |
 | 2 | SCAMPER y provocación con IA | 60 min | 45–105 |
-| 3 | Ofimática para innovar | 60 min | 105–165 |
-| 4 | Proyecto práctico de innovación | 75 min | 165–240 |
+| 3 | Comparar, decidir y documentar | 60 min | 105–165 |
+| 4 | Desarrollo de la propuesta ganadora | 75 min | 165–240 |
 | 5 | Presentación, crítica y evaluación | 60 min | 240–300 |
 | **Total** | | **300 min** | |
 
@@ -326,43 +326,13 @@ Puesta en común rápida: ¿de dónde han salido las propuestas elegidas? ¿Qué
 
 ---
 
-### BLOQUE 3. Herramientas ofimáticas para desarrollar y evaluar ideas (60 minutos)
+### BLOQUE 3. Comparar, decidir y documentar (60 minutos)
 
-**Objetivo:** documentar y comparar propuestas mediante herramientas ofimáticas conocidas, sin detenerse en funciones básicas.
+**Objetivo:** que cada pareja compare con criterio sus tres propuestas del bloque 2, elija la ganadora con argumentos y la ponga por escrito en una ficha de una página. Las herramientas (Excel o Sheets, Word o Docs) son el soporte, no el contenido: no se explican funciones básicas.
 
-#### Minutos 105–120. Word / Google Docs: convertir una idea en propuesta
+**Continuidad:** cada pareja sigue trabajando con su caso y sus tres propuestas del bloque 2. La ganadora de este bloque es la que desarrollará en el bloque 4 y defenderá en el bloque 5.
 
-**Minutos 105–110. Demostración:** crear un documento profesional de una página con título, problema, solución, destinatarios, recursos, beneficios y riesgos.
-
-**Ejemplo:**
-
-**Proyecto:** Sistema de seguimiento de solicitudes.
-
-- **Problema:** una pequeña empresa pierde peticiones entre correos dispersos.
-- **Solución:** centralizar solicitudes en un formulario y una hoja compartida.
-- **Beneficios esperados:** disminuir olvidos y facilitar el seguimiento.
-- **Recursos:** herramientas ya disponibles y una breve capacitación interna.
-- **Riesgos:** errores de registro, accesos inadecuados y resistencia al cambio.
-
-**Demostración de IA:** solicitar una versión más clara y concisa, y decidir qué propuestas de edición aceptar o rechazar.
-
-**Minutos 110–120. Actividad: ficha exprés.** Por parejas, con la mejor de sus tres propuestas del bloque 2:
-
-1. Pedir a la IA una ficha de una página con los mismos apartados del ejemplo:
-
-   ```text
-   Redacta una ficha de propuesta de una página con estos apartados:
-   proyecto, problema, solución, beneficios esperados, recursos y riesgos.
-   La propuesta es: [describir la propuesta sin datos personales].
-   Usa frases cortas y no inventes cifras ni resultados.
-   ```
-
-2. Pasarla a Word o Google Docs y marcar **tres cosas que cambiarían** (algo que sobra, algo que falta y algo que no es cierto o no está justificado).
-3. Corregirlas.
-
-En la puesta en común, dos o tres parejas cuentan qué han cambiado y por qué. Esta ficha servirá de borrador para el documento del bloque 4.
-
-#### Minutos 120–128. Excel / Google Sheets: matriz de decisión
+#### Minutos 105–113. La matriz de decisión
 
 Puntuar cada alternativa del 1 al 5 con cuatro criterios:
 
@@ -389,15 +359,15 @@ Una vez hecho a mano, se entiende lo que hace la fórmula.
 
 Copiar hacia abajo. Explicar que los resultados dependen de las puntuaciones y pesos elegidos; la matriz es una ayuda para razonar, no una prueba objetiva.
 
-#### Minutos 128–160. Ejercicio 4: Elegir con criterio
+#### Minutos 113–140. Ejercicio 4: elegir con criterio
 
-Por parejas:
+Por parejas, con sus tres propuestas del bloque 2:
 
-1. Introducir las tres propuestas del bloque 2 en Excel o Sheets.
+1. Introducir las tres propuestas en Excel o Sheets.
 2. Puntuar cada criterio y calcular el total ponderado.
-3. Ordenar las soluciones por resultado.
-4. Discutir si la primera opción les parece realmente la más adecuada.
-5. Cambiar los pesos (manteniendo el 100 % total), dando más importancia al coste, y observar si varía la clasificación.
+3. Ordenar las propuestas por resultado.
+4. Discutir si la primera les parece realmente la más adecuada.
+5. Cambiar los pesos (manteniendo el 100 % total), dando más importancia al coste, y observar si varía la clasificación. Ojo: con esta fórmula, los pesos están escritos dentro y hay que cambiarlos en todas las filas.
 6. Pedir a la IA que revise la matriz y comprobar si sus observaciones son correctas:
 
    ```text
@@ -408,68 +378,69 @@ Por parejas:
    y si falta algún criterio importante. Justifica cada observación.
    ```
 
-**Puesta en común (últimos 5 minutos):** ¿ha cambiado la clasificación al modificar los pesos? ¿Tenía razón la IA en sus observaciones o se ha equivocado en algo?
+7. **Decidir:** elegir la propuesta ganadora y justificarla en una frase: «Elegimos… porque…». No tiene por qué ser la de mayor puntuación, pero si no lo es, hay que explicar por qué.
 
-**Entregable:** hoja de cálculo con decisiones argumentadas.
+**Puesta en común (últimos 4 minutos):** cada pareja dice su propuesta ganadora, si la clasificación cambió al mover los pesos y si la IA tenía razón en sus observaciones.
+
+**Entregable:** hoja de cálculo con la decisión argumentada.
+
+#### Minutos 140–145. Una propuesta en una página
+
+**Demostración:** crear un documento profesional de una página con título, problema, solución, destinatarios, recursos, beneficios y riesgos.
+
+**Ejemplo:**
+
+**Proyecto:** Sistema de seguimiento de solicitudes.
+
+- **Problema:** una pequeña empresa pierde peticiones entre correos dispersos.
+- **Solución:** centralizar solicitudes en un formulario y una hoja compartida.
+- **Beneficios esperados:** disminuir olvidos y facilitar el seguimiento.
+- **Recursos:** herramientas ya disponibles y una breve capacitación interna.
+- **Riesgos:** errores de registro, accesos inadecuados y resistencia al cambio.
+
+**Demostración de IA:** solicitar una versión más clara y concisa, y decidir qué propuestas de edición aceptar o rechazar.
+
+#### Minutos 145–160. Ficha exprés de la propuesta ganadora
+
+Por parejas, con la propuesta que acaban de elegir:
+
+1. Pedir a la IA una ficha de una página con los mismos apartados del ejemplo:
+
+   ```text
+   Redacta una ficha de propuesta de una página con estos apartados:
+   proyecto, problema, solución, beneficios esperados, recursos y riesgos.
+   La propuesta es: [describir la propuesta sin datos personales].
+   Usa frases cortas y no inventes cifras ni resultados.
+   ```
+
+2. Pasarla a Word o Google Docs y marcar **tres cosas que cambiarían** (algo que sobra, algo que falta y algo que no es cierto o no está justificado).
+3. Corregirlas.
+
+**Puesta en común (últimos 4 minutos):** dos o tres parejas cuentan qué han cambiado y por qué. Esta ficha es el borrador del documento del bloque 4.
 
 #### Minutos 160–165. Síntesis
 
-Secuencia a recordar: **detectar → idear → documentar → comparar → decidir**.
+Secuencia a recordar: **detectar → idear → comparar → decidir → documentar**.
 
 **Actividad: ronda rápida.** Cada pareja dice en una frase qué paso de la secuencia le ha costado más hasta ahora y por qué. El docente anota las respuestas: indican en qué insistir durante el bloque 4.
 
 ---
 
-### BLOQUE 4. Taller integrado: proyecto de innovación (75 minutos)
+### BLOQUE 4. Desarrollo de la propuesta ganadora (75 minutos)
 
-**Objetivo:** integrar técnicas creativas, IA y ofimática en una propuesta profesional defendible.
+**Objetivo:** convertir la propuesta ganadora de cada pareja en un proyecto defendible: bien explicado, con sus riesgos, con una forma de medir si funciona y con una presentación breve.
 
-#### Minutos 165–175. Presentación del caso «Oficina Futuro»
+**Continuidad:** cada pareja trabaja sobre su propia propuesta ganadora del bloque 3 y su ficha exprés. No hay caso nuevo.
 
-**Empresa ficticia:** Oficina Futuro, ocho trabajadores y actividad de servicios formativos.
+#### Minutos 165–175. Preguntas difíciles antes de seguir
 
-**Problemas del caso:**
+Antes de desarrollar el proyecto, hay que ponerlo a prueba.
 
-- Recibe unas 40 consultas diarias por distintos canales.
-- Dedica tiempo a responder preguntas repetidas.
-- Tiene información de clientes dispersa en varios archivos.
-- Se producen errores al trasladar datos entre documentos.
+**Actividad: intercambio de parejas.** Las parejas se juntan de dos en dos. La pareja A explica su propuesta en un minuto con la ficha exprés delante; la pareja B le hace **dos preguntas difíciles** (¿cuánto cuesta?, ¿quién se encarga?, ¿qué pasa si alguien no lo usa?, ¿cómo sabremos si funciona?). Después se cambian los papeles. Cada pareja apunta las preguntas que no ha sabido responder: son lo primero que tiene que resolver el documento.
 
-**Encargo:** proponer una mejora con herramientas de bajo coste, sin contratar personal adicional. Las cifras del caso son supuestos didácticos, no datos medidos.
+#### Minutos 175–195. Documento del proyecto
 
-**Minutos 165–168.** Las parejas leen el caso.
-
-**Minutos 168–175. Actividad: preguntas a la gerencia.** Antes de proponer nada, hay que entender el problema. El docente hace de gerente de Oficina Futuro y cada pareja puede hacerle **una pregunta**. Respuestas preparadas para las preguntas más probables:
-
-| Pregunta probable | Respuesta del gerente |
-|---|---|
-| ¿Por qué canales llegan las consultas? | Teléfono, correo, WhatsApp y algunas en persona. |
-| ¿Qué preguntan más? | Fechas de inicio, precios, requisitos de acceso y si quedan plazas. |
-| ¿Quién las responde? | Quien esté libre en ese momento; no hay nadie asignado. |
-| ¿Dónde están los datos de los clientes? | En varias hojas de Excel, en el correo y en una libreta de recepción. |
-| ¿Qué herramientas tenéis? | Paquete ofimático con correo, hojas de cálculo compartidas y un teléfono móvil de empresa. |
-| ¿Cuál es el presupuesto? | Muy pequeño: lo que se pueda hacer con lo que ya tenemos o con algo muy barato. |
-
-Si preguntan algo que no está previsto, el docente responde con coherencia o dice «no lo sabemos», que también es realista. Al terminar, votar a mano alzada qué problema del caso tiene más impacto.
-
-#### Minutos 175–190. Generación y elección de propuestas
-
-Cada pareja genera cinco ideas y selecciona una.
-
-```text
-Actúa como consultor de innovación y transformación digital para
-pequeñas empresas. Analiza el caso de Oficina Futuro: ocho trabajadores,
-40 consultas diarias, documentación dispersa y tareas administrativas
-repetitivas. Propón cinco mejoras diferentes utilizando herramientas
-ofimáticas e inteligencia artificial.
-Para cada una, indica cómo funciona, qué herramientas requiere, sus
-beneficios y sus principales riesgos. Prioriza soluciones de bajo coste
-que puedan probarse en menos de un mes. No inventes cifras de ahorro.
-```
-
-#### Minutos 190–210. Documento del proyecto
-
-En Word o Google Docs, elaborar una ficha de **máximo dos páginas** con:
+En Word o Google Docs, ampliar la ficha exprés hasta una ficha de **máximo dos páginas** con:
 
 1. Nombre de la propuesta.
 2. Problema concreto.
@@ -479,17 +450,31 @@ En Word o Google Docs, elaborar una ficha de **máximo dos páginas** con:
 6. Riesgos y medidas preventivas.
 7. Tres pasos para ponerla en práctica.
 
+La IA puede ayudar a redactar, pero cada apartado lo revisa la pareja con el mismo criterio de la ficha exprés: qué sobra, qué falta y qué no es cierto.
+
 **Preguntas de acompañamiento docente:**
 
+- ¿Habéis respondido a las preguntas que no supisteis contestar en el intercambio?
 - ¿Qué actividades requieren supervisión humana?
-- ¿Cómo sabríamos si el sistema mejora el trabajo?
 - ¿Qué datos no deberíamos introducir en una IA pública?
 
-#### Minutos 210–225. Comprobación de viabilidad
+#### Minutos 195–210. ¿Cómo sabremos si funciona?
 
-Comparar la idea seleccionada con otras dos en Excel. Definir **dos indicadores medibles**, como tiempo de tramitación, consultas sin respuesta o porcentaje de registros incompletos. No inventar resultados: explicar cómo recoger datos antes y después de un posible piloto.
+Definir **dos indicadores medibles** y explicar cómo se recogerían los datos antes y después de una prueba de un mes. Ejemplos: tiempo de tramitación, consultas sin respuesta, pedidos servidos tarde o plazas sin cubrir.
 
-#### Minutos 225–240. Presentación en tres diapositivas
+Primero, la pareja piensa sus propios indicadores. Después, puede pedir ideas a la IA:
+
+```text
+Esta es nuestra propuesta: [resumen sin datos personales].
+Propón cinco indicadores medibles para comprobar si funciona durante
+una prueba de un mes. Para cada uno, explica cómo medirlo antes y
+después de la prueba con herramientas sencillas. No inventes
+resultados ni cifras de mejora.
+```
+
+La pareja elige los dos indicadores que mejor demuestren si la propuesta resuelve el problema y los añade al documento. **No inventar resultados:** se explica cómo se mediría, no lo que se conseguirá.
+
+#### Minutos 210–235. Presentación en tres diapositivas
 
 En PowerPoint o Slides:
 
@@ -499,7 +484,11 @@ En PowerPoint o Slides:
 
 **Criterios:** una idea central por diapositiva, poco texto, títulos claros, gráficos simples y evitar resultados no justificados.
 
-**Entregables del taller:** documento, matriz y presentación.
+#### Minutos 235–240. Revisión cruzada
+
+Las parejas se intercambian las presentaciones con la pareja del minuto 165 y comprueban los criterios: ¿una idea por diapositiva?, ¿poco texto?, ¿alguna cifra sin justificar? Cada pareja devuelve una mejora concreta.
+
+**Entregables del taller:** matriz de decisión (bloque 3), documento del proyecto y presentación.
 
 ---
 
@@ -513,7 +502,7 @@ En PowerPoint o Slides:
 
 > **Versión A:** «Proponemos usar formularios de Google, una hoja de cálculo compartida y un chatbot con IA. Es muy moderno, es gratis y todas las empresas lo están usando».
 >
-> **Versión B:** «Oficina Futuro pierde consultas porque llegan por cuatro canales y nadie se encarga de ellas. Proponemos un formulario único que guarde cada consulta en una hoja compartida, con una persona responsable cada día. Lo probaríamos un mes y mediríamos cuántas consultas quedan sin respuesta».
+> **Versión B:** «Nuestra oficina pierde consultas porque llegan por teléfono y por correo y nadie se encarga de ellas. Proponemos un formulario único que guarde cada consulta en una hoja compartida, con una persona responsable cada día. Lo probaríamos un mes y mediríamos cuántas consultas quedan sin respuesta».
 
 La versión A habla de herramientas y hace afirmaciones sin justificar; la B parte del problema, explica la solución y dice cómo se medirá. De ahí sale la estructura:
 
@@ -591,12 +580,11 @@ Pedir a cada participante una técnica que quiera aplicar en un futuro empleo.
 | Material | Contenido |
 |---|---|
 | Presentación | 30–40 diapositivas con conceptos, demostraciones, preguntas y actividades. |
-| Cuaderno de ejercicios | Instrucciones y espacios para resolver los cuatro ejercicios (bloques 1 a 3), con espacio para las rondas sin IA y con IA, y el proyecto integrado de Oficina Futuro (bloque 4). |
+| Cuaderno de ejercicios | Instrucciones y espacios para resolver los cuatro ejercicios (bloques 1 a 3), con espacio para las rondas sin IA y con IA, y para el desarrollo de la propuesta ganadora (bloque 4). |
 | Plantilla Excel / Sheets | Matriz de decisión y fórmulas de puntuación. |
-| Ficha del caso | Contexto y restricciones de Oficina Futuro. |
-| Plantilla Word / Docs | Estructura del proyecto de innovación. |
+| Plantilla Word / Docs | Estructura de la ficha exprés (una página) y del documento del proyecto (dos páginas). |
 | Plantilla PowerPoint / Slides | Tres diapositivas: problema, solución y beneficios. |
-| Ejercicios de reserva | Datos base de la comunidad de vecinos y tarjeta del giro (sección 7). |
+| Ejercicios de reserva | Datos base de la comunidad de vecinos, tarjeta del giro y ficha del caso Oficina Futuro (sección 7). |
 
 **Requisitos técnicos:** ordenador por participante o pareja, conexión a internet, acceso a una IA generativa y suite ofimática. Tener ejemplos y datos ficticios preparados por si falla la conexión.
 
@@ -605,7 +593,7 @@ Pedir a cada participante una técnica que quiera aplicar en un futuro empleo.
 - **Nivel intermedio:** no explicar funciones elementales de Word, Excel o ChatGPT; avanzar hacia evaluación, comparación, iteración de prompts y combinación de herramientas.
 - **Equilibrio de la sesión:** aproximadamente un 25 % de explicación y demostración y un 75 % de práctica, discusión y evaluación.
 - **Contexto de desempleo:** utilizar situaciones transferibles a puestos administrativos, comerciales, de atención al cliente y otros sectores; evitar reducir toda la formación a preparar CV.
-- **Productos conservables:** cada persona o pareja sale con una ficha de proyecto, una matriz de evaluación y tres diapositivas que pueden servir como evidencia de aprendizaje.
+- **Productos conservables:** cada pareja sale con su propio proyecto completo, desde la idea hasta la defensa: una matriz de decisión, un documento del proyecto y tres diapositivas que pueden servir como evidencia de aprendizaje.
 - **Uso responsable:** no incorporar información personal o confidencial a servicios de IA sin autorización; verificar afirmaciones, datos y funciones de herramientas.
 
 **Mensaje central para cerrar el taller:** la IA ayuda a ampliar y acelerar el pensamiento creativo; el valor profesional consiste en **definir bien el problema, elegir una solución sensata y saber cómo comprobar si funciona**.
@@ -662,3 +650,50 @@ Para usar al final si sobra tiempo, en orden: si sobra tiempo se hace el 1; si d
 - La pareja distingue qué parte de la idea es suya y qué aportó la IA, y no acepta sin más lo que propone la IA.
 - Responde a la pregunta difícil con argumentos y no con cifras inventadas.
 - No aparecen datos personales de vecinos en lo que se ha introducido en la IA.
+
+### Ejercicio de reserva 2. Oficina Futuro (30 minutos)
+
+**Objetivo:** repetir en poco tiempo el proceso completo sobre un caso nuevo, empezando por entender el problema antes de proponer nada.
+
+**El caso:** Oficina Futuro es una empresa ficticia de servicios formativos con ocho trabajadores. Recibe unas 40 consultas diarias por distintos canales, dedica mucho tiempo a responder preguntas repetidas, tiene la información de los clientes dispersa en varios archivos y comete errores al trasladar datos entre documentos. **Encargo:** proponer una mejora con herramientas de bajo coste, sin contratar personal. Las cifras son supuestos didácticos, no datos medidos.
+
+**Desarrollo:**
+
+1. **Minutos 0–3. Lectura del caso.**
+2. **Minutos 3–10. Preguntas a la gerencia.** El docente hace de gerente y cada pareja puede hacerle **una pregunta**. Respuestas preparadas para las preguntas más probables:
+
+   | Pregunta probable | Respuesta del gerente |
+   |---|---|
+   | ¿Por qué canales llegan las consultas? | Teléfono, correo, WhatsApp y algunas en persona. |
+   | ¿Qué preguntan más? | Fechas de inicio, precios, requisitos de acceso y si quedan plazas. |
+   | ¿Quién las responde? | Quien esté libre en ese momento; no hay nadie asignado. |
+   | ¿Dónde están los datos de los clientes? | En varias hojas de Excel, en el correo y en una libreta de recepción. |
+   | ¿Qué herramientas tenéis? | Paquete ofimático con correo, hojas de cálculo compartidas y un teléfono móvil de empresa. |
+   | ¿Cuál es el presupuesto? | Muy pequeño: lo que se pueda hacer con lo que ya tenemos o con algo muy barato. |
+
+   Si preguntan algo que no está previsto, responder con coherencia o decir «no lo sabemos», que también es realista.
+
+3. **Minutos 10–18. Ideas (por parejas).** Tres ideas sin IA. Después, más ideas con este prompt:
+
+   ```text
+   Actúa como consultor de innovación y transformación digital para
+   pequeñas empresas. Analiza el caso de Oficina Futuro: ocho trabajadores,
+   40 consultas diarias, documentación dispersa y tareas administrativas
+   repetitivas. Ya tenemos estas ideas: [ideas de la pareja].
+   Propón cinco mejoras diferentes a las nuestras utilizando herramientas
+   ofimáticas e inteligencia artificial. Para cada una, indica cómo
+   funciona, qué herramientas requiere, sus beneficios y sus principales
+   riesgos. Prioriza soluciones de bajo coste que puedan probarse en menos
+   de un mes. No inventes cifras de ahorro.
+   ```
+
+4. **Minutos 18–24. Elegir y medir.** Cada pareja elige una idea, la justifica con coste, beneficio y facilidad de aplicación, y define un indicador para saber si funciona.
+5. **Minutos 24–30. Corrección: ante la gerencia.** Cada pareja presenta su idea en un minuto y el docente, como gerente, le hace una pregunta difícil.
+
+**Qué buscar al corregir:**
+
+- Las preguntas a la gerencia buscan entender el problema, no confirmar una solución que ya traían pensada.
+- La idea responde al problema con más impacto y respeta las restricciones: bajo coste y sin contratar a nadie.
+- La justificación usa criterios (coste, beneficio, facilidad), no solo «nos gusta».
+- El indicador es medible y no viene acompañado de resultados inventados.
+- La pareja distingue qué parte de la idea es suya y qué aportó la IA.
