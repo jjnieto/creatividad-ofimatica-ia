@@ -602,7 +602,7 @@ Pedir a cada participante una técnica que quiera aplicar en un futuro empleo.
 | Plantilla Excel / Sheets | Matriz de decisión y fórmulas de puntuación. |
 | Plantilla Word / Docs | Estructura de la ficha exprés (una página) y del documento del proyecto (dos páginas). |
 | Plantilla PowerPoint / Slides | Tres diapositivas: problema, solución y beneficios. |
-| Ejercicios de reserva | Datos base de la comunidad de vecinos, tarjeta del giro y ficha del caso Oficina Futuro (sección 7). |
+| Ejercicios de reserva | Una presentación por ejercicio (comunidad de vecinos, Oficina Futuro y atención telefónica), con los casos, los prompts y las plantillas de las cinco fases (sección 7). |
 
 **Requisitos técnicos:** ordenador por participante o pareja, conexión a internet, acceso a una IA generativa y suite ofimática. Tener ejemplos y datos ficticios preparados por si falla la conexión.
 
@@ -618,11 +618,26 @@ Pedir a cada participante una técnica que quiera aplicar en un futuro empleo.
 
 ## 7. Ejercicios de reserva
 
-Para usar al final si sobra tiempo, en orden: si sobra tiempo se hace el 1; si después sigue sobrando, el siguiente. Cada ejercicio es independiente y su duración **incluye la corrección en clase**.
+Para usar al final si sobra tiempo, en orden: si sobra tiempo se hace el 1; si después sigue sobrando, el siguiente. Cada ejercicio es independiente y dura 30 minutos, con la corrección incluida.
+
+**Planteamiento común:** una vez explicado el proceso durante el curso, cada ejercicio lo recorre entero, de forma continua y rápida, sobre un caso nuevo y por parejas. Cada uno practica una técnica creativa distinta en la fase 1.
+
+| Fase | Minutos | Qué se hace |
+|---|---|---|
+| — | 0–3 | Presentación del caso |
+| 1. Generar ideas | 3–10 | Ideas sin IA (4 minutos) y después con IA (3 minutos), con la técnica del ejercicio |
+| 2. Seleccionar | 10–12 | Quedarse con las tres propuestas que más interesan |
+| 3. Comparar y elegir | 12–17 | Puntuar las tres con la matriz del curso y elegir la ganadora: «Elegimos… porque…» |
+| 4. Documentar y desarrollar | 17–22 | Ficha en cinco líneas: problema, solución, qué necesitamos, principal riesgo y cómo sabremos si funciona |
+| 5. Presentar y defender | 22–30 | Defensa de un minuto por pareja y una pregunta difícil del docente |
+
+**Matriz rápida (fase 3):** los criterios y pesos del bloque 3 (impacto 35 %, viabilidad 30 %, bajo coste 20 % y originalidad 15 %), puntuando del 1 al 5, con la calculadora o en Excel.
+
+**Indicador (fase 4):** igual que en el bloque 4, se explica qué se mediría y cómo, antes y después de una prueba; no se inventan resultados.
 
 ### Ejercicio de reserva 1. La comunidad de vecinos que no funciona (30 minutos)
 
-**Objetivo:** aplicar en poco tiempo todo el proceso del curso (detectar, idear con y sin IA, decidir y defender) sobre un servicio que todo el mundo conoce por experiencia propia.
+**Técnica de la fase 1:** brainstorming.
 
 **Datos base** (lo único que se entrega; los problemas los aporta el grupo):
 
@@ -634,51 +649,41 @@ Para usar al final si sobra tiempo, en orden: si sobra tiempo se hace el 1; si d
 
 **Desarrollo:**
 
-1. **Minutos 0–3. Presentación.** Leer los datos base y el mensaje.
-2. **Minutos 3–8. ¿Qué falla? (entre todos, sin IA).** El grupo dice qué suele fallar en una comunidad de vecinos y el docente lo apunta. Después se elige un problema común y se formula como reto: «¿Cómo podríamos…?».
-3. **Minutos 8–15. Ideas (por parejas).** Cinco ideas sin IA. Después, cinco más con este prompt:
+1. **Minutos 0–3. Presentación.** Leer los datos base. Entre todos, decir qué suele fallar en una comunidad de vecinos y elegir un problema común, formulado como reto: «¿Cómo podríamos…?».
+2. **Minutos 3–10. Fase 1: generar ideas.** Brainstorming por parejas sin IA (4 minutos). Después, con IA (3 minutos):
 
    ```text
    Somos el despacho de administración de una comunidad de 32 viviendas
    con vecinos mayores, inquilinos que cambian a menudo y propietarios
    que viven fuera. Este es nuestro reto: [reto].
    Ya tenemos estas ideas: [ideas de la pareja].
-   Propón cinco ideas nuevas que no se parezcan a las nuestras,
-   de bajo coste y que puedan probarse en un mes.
+   Propón diez ideas nuevas que no se parezcan a las nuestras,
+   de bajo coste y que puedan probarse en un mes. Una línea por idea.
    ```
 
-4. **Minuto 15. Giro.** El docente anuncia: *«Carmen, la presidenta, no tiene WhatsApp ni smartphone. Un tercio de los propietarios tampoco»*. Cada pareja descarta o adapta las ideas que ya no sirven.
-5. **Minutos 15–22. Elegir y poner a prueba.** Cada pareja elige una idea (dos parejas no pueden elegir la misma) y la somete a la crítica de la IA:
-
-   ```text
-   Actúa como el vecino más desconfiado de una comunidad de 32 viviendas:
-   no te gustan los cambios y crees que toda propuesta nueva es una excusa
-   para cobrar más. Hazme las dos preguntas más difíciles que harías en
-   la junta sobre esta propuesta: [resumen sin nombres ni datos personales].
-   ```
-
-   Preparar una respuesta breve para cada pregunta.
-6. **Minutos 22–30. Corrección: la junta.** Cada pareja presenta su idea en un minuto y responde a una de las preguntas difíciles. El docente hace de Carmen y el resto del grupo de vecinos.
+   **Giro, al terminar la fase 1:** el docente anuncia: *«Carmen, la presidenta, no tiene WhatsApp ni smartphone. Un tercio de los propietarios tampoco»*. Las parejas descartan o adaptan las ideas que ya no sirven.
+3. **Minutos 10–12. Fase 2: seleccionar** tres propuestas.
+4. **Minutos 12–17. Fase 3: comparar y elegir** con la matriz rápida.
+5. **Minutos 17–22. Fase 4: ficha en cinco líneas.**
+6. **Minutos 22–30. Fase 5: la junta.** Cada pareja defiende su propuesta en un minuto. El docente hace de Carmen y le hace una pregunta difícil.
 
 **Qué buscar al corregir:**
 
 - El reto está bien formulado: no contiene ya la solución y se centra en las personas.
-- La idea se ha adaptado al giro: funciona para quien no usa WhatsApp ni smartphone.
-- Es de bajo coste y se puede probar en un mes; no depende de contratar a nadie.
-- La pareja distingue qué parte de la idea es suya y qué aportó la IA, y no acepta sin más lo que propone la IA.
-- Responde a la pregunta difícil con argumentos y no con cifras inventadas.
+- La propuesta se ha adaptado al giro: funciona para quien no usa WhatsApp ni smartphone.
+- La elección se justifica con la matriz, no solo con «nos gusta».
+- El indicador es medible y no viene acompañado de resultados inventados.
 - No aparecen datos personales de vecinos en lo que se ha introducido en la IA.
 
 ### Ejercicio de reserva 2. Oficina Futuro (30 minutos)
 
-**Objetivo:** repetir en poco tiempo el proceso completo sobre un caso nuevo, empezando por entender el problema antes de proponer nada.
+**Técnica de la fase 1:** SCAMPER.
 
 **El caso:** Oficina Futuro es una empresa ficticia de servicios formativos con ocho trabajadores. Recibe unas 40 consultas diarias por distintos canales, dedica mucho tiempo a responder preguntas repetidas, tiene la información de los clientes dispersa en varios archivos y comete errores al trasladar datos entre documentos. **Encargo:** proponer una mejora con herramientas de bajo coste, sin contratar personal. Las cifras son supuestos didácticos, no datos medidos.
 
 **Desarrollo:**
 
-1. **Minutos 0–3. Lectura del caso.**
-2. **Minutos 3–10. Preguntas a la gerencia.** El docente hace de gerente y cada pareja puede hacerle **una pregunta**. Respuestas preparadas para las preguntas más probables:
+1. **Minutos 0–3. Presentación y preguntas a la gerencia.** Leer el caso. El docente hace de gerente y responde a tres o cuatro preguntas del grupo. Respuestas preparadas para las preguntas más probables:
 
    | Pregunta probable | Respuesta del gerente |
    |---|---|
@@ -689,29 +694,68 @@ Para usar al final si sobra tiempo, en orden: si sobra tiempo se hace el 1; si d
    | ¿Qué herramientas tenéis? | Paquete ofimático con correo, hojas de cálculo compartidas y un teléfono móvil de empresa. |
    | ¿Cuál es el presupuesto? | Muy pequeño: lo que se pueda hacer con lo que ya tenemos o con algo muy barato. |
 
-   Si preguntan algo que no está previsto, responder con coherencia o decir «no lo sabemos», que también es realista.
-
-3. **Minutos 10–18. Ideas (por parejas).** Tres ideas sin IA. Después, más ideas con este prompt:
+2. **Minutos 3–10. Fase 1: generar ideas.** SCAMPER por parejas sin IA sobre cómo se atiende hoy una consulta (4 minutos), al menos una idea en cuatro de las siete letras. Después, con IA (3 minutos):
 
    ```text
-   Actúa como consultor de innovación y transformación digital para
-   pequeñas empresas. Analiza el caso de Oficina Futuro: ocho trabajadores,
-   40 consultas diarias, documentación dispersa y tareas administrativas
-   repetitivas. Ya tenemos estas ideas: [ideas de la pareja].
-   Propón cinco mejoras diferentes a las nuestras utilizando herramientas
-   ofimáticas e inteligencia artificial. Para cada una, indica cómo
-   funciona, qué herramientas requiere, sus beneficios y sus principales
-   riesgos. Prioriza soluciones de bajo coste que puedan probarse en menos
-   de un mes. No inventes cifras de ahorro.
+   Actúa como especialista en mejora de procesos de pequeñas empresas.
+   Proceso actual: en Oficina Futuro, ocho trabajadores responden unas
+   40 consultas diarias que llegan por teléfono, correo, WhatsApp y en
+   persona; nadie tiene asignada esa tarea y los datos de los clientes
+   están dispersos en varios archivos.
+   Ya tenemos estas ideas: [ideas de la pareja, con su letra].
+   Aplica SCAMPER y propón una idea nueva por cada letra que no repita
+   las nuestras. Bajo coste, sin contratar personal y que pueda probarse
+   en un mes. No inventes cifras de ahorro.
    ```
 
-4. **Minutos 18–24. Elegir y medir.** Cada pareja elige una idea, la justifica con coste, beneficio y facilidad de aplicación, y define un indicador para saber si funciona.
-5. **Minutos 24–30. Corrección: ante la gerencia.** Cada pareja presenta su idea en un minuto y el docente, como gerente, le hace una pregunta difícil.
+3. **Minutos 10–12. Fase 2: seleccionar** tres propuestas.
+4. **Minutos 12–17. Fase 3: comparar y elegir** con la matriz rápida.
+5. **Minutos 17–22. Fase 4: ficha en cinco líneas.**
+6. **Minutos 22–30. Fase 5: ante la gerencia.** Cada pareja defiende su propuesta en un minuto. El docente, como gerente, le hace una pregunta difícil.
 
 **Qué buscar al corregir:**
 
 - Las preguntas a la gerencia buscan entender el problema, no confirmar una solución que ya traían pensada.
-- La idea responde al problema con más impacto y respeta las restricciones: bajo coste y sin contratar a nadie.
-- La justificación usa criterios (coste, beneficio, facilidad), no solo «nos gusta».
+- La propuesta respeta las restricciones: bajo coste y sin contratar a nadie.
+- La elección se justifica con la matriz, no solo con «nos gusta».
 - El indicador es medible y no viene acompañado de resultados inventados.
 - La pareja distingue qué parte de la idea es suya y qué aportó la IA.
+
+### Ejercicio de reserva 3. La atención telefónica que nadie soporta (30 minutos)
+
+**Técnica de la fase 1:** provocación.
+
+**El caso:** una compañía de luz y gas (ficticia) tiene una atención telefónica de la que todo el mundo se queja: un menú automático con muchas opciones, un asistente virtual que no entiende lo que se le pide, largas esperas y llamadas que se cortan o pasan de un departamento a otro sin resolver nada. **Encargo:** proponer una mejora que pueda probarse en un mes, sin contratar más personal. Casi todo el mundo ha vivido una llamada así: los problemas los aporta el grupo.
+
+Este caso tiene un interés añadido para el curso: parte del problema es un asistente automático mal planteado. La pregunta de fondo es cómo usar bien la tecnología para arreglar lo que una tecnología mal usada ha estropeado.
+
+**Desarrollo:**
+
+1. **Minutos 0–3. Presentación.** Leer el caso. Entre todos, decir qué es lo peor de llamar a una compañía así y elegir un problema común, formulado como reto: «¿Cómo podríamos…?».
+2. **Minutos 3–10. Fase 1: generar ideas.** Provocación por parejas sin IA (4 minutos): dos provocaciones de tipos distintos, con su movimiento y su idea práctica. Ejemplos para desbloquear: «La compañía llama al cliente antes de que el cliente llame», «No hay menú de opciones». Después, con IA (3 minutos):
+
+   ```text
+   Actúa como experto en pensamiento lateral y en la técnica de
+   provocación de Edward de Bono.
+   Situación: la atención telefónica de una compañía de luz y gas tiene
+   un menú automático largo, un asistente virtual que no entiende a los
+   clientes, esperas largas y llamadas que no se resuelven.
+   Reto: [reto del grupo].
+   Escribe 4 provocaciones (inversión, exageración, eliminación y deseo)
+   y, para cada una, el principio útil y una idea práctica que pueda
+   probarse en un mes sin contratar personal.
+   No repitas estas provocaciones nuestras: [provocaciones de la pareja].
+   ```
+
+3. **Minutos 10–12. Fase 2: seleccionar** tres propuestas.
+4. **Minutos 12–17. Fase 3: comparar y elegir** con la matriz rápida.
+5. **Minutos 17–22. Fase 4: ficha en cinco líneas.**
+6. **Minutos 22–30. Fase 5: ante la dirección de atención al cliente.** Cada pareja defiende su propuesta en un minuto. El docente hace de director o directora de atención al cliente y le hace una pregunta difícil.
+
+**Qué buscar al corregir:**
+
+- Las provocaciones llegan hasta una idea práctica: no se quedan en la ocurrencia.
+- La propuesta mejora la experiencia de quien llama, no solo ahorra costes a la compañía.
+- Si la propuesta usa IA o automatización, explica qué hace una persona y qué hace la máquina.
+- La elección se justifica con la matriz, no solo con «nos gusta».
+- El indicador es medible (por ejemplo, llamadas resueltas en el primer contacto) y no viene acompañado de resultados inventados.
