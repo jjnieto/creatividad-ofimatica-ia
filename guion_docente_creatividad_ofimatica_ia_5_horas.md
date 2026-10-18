@@ -30,7 +30,7 @@ Al finalizar, cada participante podrá:
 | 2 | SCAMPER y provocación con IA | 60 min | 45–105 |
 | 3 | Comparar, decidir y documentar | 60 min | 105–165 |
 | 4 | Desarrollo de la propuesta ganadora | 75 min | 165–240 |
-| 5 | Presentación, crítica y evaluación | 60 min | 240–300 |
+| 5 | Comunicación, pensamiento crítico y aplicación profesional | 60 min | 240–300 |
 | **Total** | | **300 min** | |
 
 > Los 300 minutos son de formación efectiva. Si debe incluirse un descanso de 15 minutos dentro de las cinco horas, recortar 5 minutos en cada uno de los bloques 2, 3 y 5.
@@ -146,6 +146,8 @@ Hay una versión ampliada de esta historia (8–10 minutos), con el estudio de *
 Mostrar que la última idea, que parecía absurda, conduce a una idea sensata.
 
 #### Minutos 20–30. Ejercicio 1, ronda sin IA: brainstorming entre todos
+
+El Ejercicio 1 es una primera prueba de la técnica, con un reto aparte. Las propuestas del proyecto de cada pareja saldrán de SCAMPER y de la provocación, en el bloque 2.
 
 **Reto:** *¿Cómo podríamos conseguir que más personas pidan información sobre los cursos de una academia de formación que recibe pocas solicitudes?*
 
@@ -404,11 +406,11 @@ Por parejas, con sus tres propuestas del bloque 2:
 
 #### Minutos 140–145. Una propuesta en una página
 
-**Demostración:** crear un documento profesional de una página con título, problema, solución, destinatarios, recursos, beneficios y riesgos.
+**Demostración:** crear una ficha de una página con seis apartados: nombre de la propuesta, problema, solución, beneficios esperados, recursos y riesgos.
 
 **Ejemplo:**
 
-**Proyecto:** Sistema de seguimiento de solicitudes.
+**Nombre de la propuesta:** Sistema de seguimiento de solicitudes.
 
 - **Problema:** una pequeña empresa pierde peticiones entre correos dispersos.
 - **Solución:** centralizar solicitudes en un formulario y una hoja compartida.
@@ -425,8 +427,8 @@ Por parejas, con la propuesta que acaban de elegir:
 1. Pedir a la IA una ficha de una página con los mismos apartados del ejemplo:
 
    ```text
-   Redacta una ficha de propuesta de una página con estos apartados:
-   proyecto, problema, solución, beneficios esperados, recursos y riesgos.
+   Redacta una ficha de una página con estos apartados: nombre de la
+   propuesta, problema, solución, beneficios esperados, recursos y riesgos.
    La propuesta es: [describir la propuesta sin datos personales].
    Usa frases cortas y no inventes cifras ni resultados.
    ```
@@ -458,15 +460,15 @@ Antes de desarrollar el proyecto, hay que ponerlo a prueba.
 
 #### Minutos 175–195. Documento del proyecto
 
-En Word o Google Docs, ampliar la ficha exprés hasta una ficha de **máximo dos páginas** con:
+En Word o Google Docs, ampliar la ficha exprés hasta el documento del proyecto, de **máximo dos páginas**. Tiene los seis apartados de la ficha, ampliados, y uno nuevo:
 
 1. Nombre de la propuesta.
-2. Problema concreto.
-3. Funcionamiento de la solución.
-4. Herramientas ofimáticas y de IA implicadas.
-5. Beneficios esperados.
-6. Riesgos y medidas preventivas.
-7. Tres pasos para ponerla en práctica.
+2. Problema.
+3. Solución: cómo funciona.
+4. Beneficios esperados, con los dos indicadores que se definen en el tramo siguiente.
+5. Recursos: herramientas ofimáticas y de IA, personas y coste.
+6. Riesgos, cada uno con su medida preventiva.
+7. Tres pasos para ponerla en práctica (apartado nuevo).
 
 La IA puede ayudar a redactar, pero cada apartado lo revisa la pareja con el mismo criterio de la ficha exprés: qué sobra, qué falta y qué no es cierto.
 
@@ -628,7 +630,7 @@ Para usar al final si sobra tiempo, en orden: si sobra tiempo se hace el 1; si d
 | 1. Generar ideas | 3–10 | Ideas sin IA (4 minutos) y después con IA (3 minutos), con la técnica del ejercicio |
 | 2. Seleccionar | 10–12 | Quedarse con las tres propuestas que más interesan |
 | 3. Comparar y elegir | 12–17 | Puntuar las tres con la matriz del curso y elegir la ganadora: «Elegimos… porque…» |
-| 4. Documentar y desarrollar | 17–22 | Ficha en cinco líneas: problema, solución, qué necesitamos, principal riesgo y cómo sabremos si funciona |
+| 4. Documentar y desarrollar | 17–22 | Ficha en cinco líneas: problema, solución, recursos, riesgos y cómo sabremos si funciona |
 | 5. Presentar y defender | 22–30 | Defensa de un minuto por pareja y una pregunta difícil del docente |
 
 **Matriz rápida (fase 3):** los criterios y pesos del bloque 3 (impacto 35 %, viabilidad 30 %, bajo coste 20 % y originalidad 15 %), puntuando del 1 al 5, con la calculadora o en Excel.
