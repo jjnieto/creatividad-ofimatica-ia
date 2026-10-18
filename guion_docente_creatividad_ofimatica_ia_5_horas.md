@@ -39,6 +39,24 @@ Al finalizar, cada participante podrá:
 
 ## 3. Desarrollo del guion docente
 
+### PRÓLOGO. Qué vamos a hacer y por qué
+
+Antes del bloque 1, explicar a nivel general qué se va a hacer durante el curso y para qué.
+
+**Qué vamos a hacer:**
+
+1. Generar muchas ideas con brainstorming, SCAMPER y provocación.
+2. Seleccionar las propuestas que realmente interesan y quedarnos con tres.
+3. Compararlas con una matriz de decisión y elegir la ganadora.
+4. Documentarla y desarrollarla.
+5. Presentarla y defenderla.
+
+**El objetivo:** aprender a modelizar un proceso de innovación (ideación, selección y decisión) de una manera estructurada, para poder presentarlo.
+
+**Por qué hacerlo así:** cuando hacemos este proceso nosotros mismos, no escribimos una sola línea: lo hacemos todo en la cabeza, en menos de un minuto; vemos las opciones y elegimos. Pero para poder comunicarlo en un entorno profesional hay que hacerlo de esta otra manera, visible y por pasos. Hay muchas maneras de hacerlo; esta es una de ellas.
+
+---
+
 ### BLOQUE 1. Activación de la creatividad y brainstorming (45 minutos)
 
 **Objetivo:** entender la diferencia entre creatividad, innovación y competencia digital, y practicar la primera técnica creativa, el brainstorming, primero entre personas y después con IA.
