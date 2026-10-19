@@ -599,7 +599,7 @@ Pedir a cada participante una técnica que quiera aplicar en un futuro empleo.
 
 | Material | Contenido |
 |---|---|
-| Presentación | 30–40 diapositivas con conceptos, demostraciones, preguntas y actividades. |
+| Presentaciones | Una por bloque más el prólogo (`diapositivas/prologo.pptx` y `bloque1.pptx` a `bloque5.pptx`, unas 95 diapositivas en total), con conceptos, demostraciones, preguntas y actividades; las indicaciones para el docente van en las notas del orador. Aparte, `historia_unreal.pptx`, versión ampliada de la historia del bloque 1. |
 | Cuaderno de ejercicios | Instrucciones y espacios para resolver los cuatro ejercicios (bloques 1 a 3), con espacio para las rondas sin IA y con IA, y para el desarrollo de la propuesta ganadora (bloque 4). |
 | Plantilla Excel / Sheets | Matriz de decisión y fórmulas de puntuación. |
 | Plantilla Word / Docs | Estructura de la ficha exprés (una página) y del documento del proyecto (dos páginas). |
