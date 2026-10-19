@@ -29,6 +29,12 @@ powershell -ExecutionPolicy Bypass -File renderizar.ps1 bloqueN.pptx render   # 
 - Las indicaciones para el docente (tiempos, respuestas orientativas) van en las notas del orador, no en la diapositiva.
 - Al generar, validar con el script `validate.py` de la skill de pptx y revisar las imágenes renderizadas.
 
+## Plantillas
+
+Los materiales del alumnado están en `plantillas/`. Rige la misma regla que con las diapositivas: el archivo manda, la primera versión se genera con un script (`python matriz_decision.py`, con openpyxl) que se niega a sobrescribir, y los cambios posteriores se hacen sobre el archivo. Tras generar un `.xlsx`, abrirlo con Excel (COM desde PowerShell) para recalcular, guardar los valores y exportar a PDF para revisarlo.
+
+- `matriz_decision.xlsx`: Ejercicio 4. La tabla ocupa `A1:F4` y la fórmula es exactamente la del guion, con los pesos escritos dentro (el paso 5 del ejercicio depende de ello). Celdas que rellena el alumnado en ámbar claro; la observación de la IA, en verde azulado claro.
+
 ## Flujo de trabajo con git
 
 Tras cada cambio, hacer commit (mensaje en español) y `git push origin main` sin pedir confirmación. Se trabaja directamente en `main`; el remoto es `https://github.com/jjnieto/creatividad-ofimatica-ia`.
