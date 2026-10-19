@@ -602,7 +602,7 @@ Pedir a cada participante una técnica que quiera aplicar en un futuro empleo.
 | Presentaciones | Una por bloque más el prólogo (`diapositivas/prologo.pptx` y `bloque1.pptx` a `bloque5.pptx`, unas 95 diapositivas en total), con conceptos, demostraciones, preguntas y actividades; las indicaciones para el docente van en las notas del orador. Aparte, `historia_unreal.pptx`, versión ampliada de la historia del bloque 1. |
 | Cuaderno de ejercicios | Instrucciones y espacios para resolver los cuatro ejercicios (bloques 1 a 3), con espacio para las rondas sin IA y con IA, y para el desarrollo de la propuesta ganadora (bloque 4). |
 | Plantilla Excel / Sheets | Matriz de decisión con la fórmula de puntuación y el espacio para la decisión argumentada, más una hoja con el ejemplo del bloque 3 (`plantillas/matriz_decision.xlsx`; se abre también en Google Sheets). |
-| Plantilla Word / Docs | Estructura de la ficha exprés (una página) y del documento del proyecto (dos páginas). |
+| Plantillas Word / Docs | Ficha exprés de una página (`plantillas/ficha_expres.docx`), con una página aparte para la revisión de la versión de la IA, y documento del proyecto de dos páginas (`plantillas/documento_proyecto.docx`), con una página aparte de comprobación antes de entregar. Se abren también en Google Docs. |
 | Plantilla PowerPoint / Slides | Tres diapositivas: problema, solución y beneficios. |
 | Ejercicios de reserva | Una presentación por ejercicio (comunidad de vecinos, Oficina Futuro y atención telefónica), con los casos, los prompts y las plantillas de las cinco fases (sección 7). |
 

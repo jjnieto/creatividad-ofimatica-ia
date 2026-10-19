@@ -31,9 +31,10 @@ powershell -ExecutionPolicy Bypass -File renderizar.ps1 bloqueN.pptx render   # 
 
 ## Plantillas
 
-Los materiales del alumnado están en `plantillas/`. Rige la misma regla que con las diapositivas: el archivo manda, la primera versión se genera con un script (`python matriz_decision.py`, con openpyxl) que se niega a sobrescribir, y los cambios posteriores se hacen sobre el archivo. Tras generar un `.xlsx`, abrirlo con Excel (COM desde PowerShell) para recalcular, guardar los valores y exportar a PDF para revisarlo.
+Los materiales del alumnado están en `plantillas/`. Rige la misma regla que con las diapositivas: el archivo manda, la primera versión se genera con un script que se niega a sobrescribir (`python matriz_decision.py`, con openpyxl; `node plantillas_word.js`, con docx, tras `npm install`), y los cambios posteriores se hacen sobre el archivo. Tras generar, abrir con Excel o Word (COM desde PowerShell) para exportar a PDF y revisarlo; en el `.xlsx`, además, recalcular y guardar los valores.
 
 - `matriz_decision.xlsx`: Ejercicio 4. La tabla ocupa `A1:F4` y la fórmula es exactamente la del guion, con los pesos escritos dentro (el paso 5 del ejercicio depende de ello). Celdas que rellena el alumnado en ámbar claro; la observación de la IA, en verde azulado claro.
+- `ficha_expres.docx` (bloque 3) y `documento_proyecto.docx` (bloque 4): recuadros en ámbar claro con una pista en gris que se sustituye, y los prompts del guion en un recuadro verde azulado. La ficha ocupa una página y el documento dos; cada uno lleva detrás una página de trabajo que no forma parte del entregable (revisión de la versión de la IA y comprobación antes de entregar).
 
 ## Flujo de trabajo con git
 
