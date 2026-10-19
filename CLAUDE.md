@@ -31,10 +31,11 @@ powershell -ExecutionPolicy Bypass -File renderizar.ps1 bloqueN.pptx render   # 
 
 ## Plantillas
 
-Los materiales del alumnado están en `plantillas/`. Rige la misma regla que con las diapositivas: el archivo manda, la primera versión se genera con un script que se niega a sobrescribir (`python matriz_decision.py`, con openpyxl; `node plantillas_word.js`, con docx, tras `npm install`; `node plantilla_presentacion.js`, que usa el tema y las dependencias de `diapositivas/`), y los cambios posteriores se hacen sobre el archivo. Tras generar, abrir con Excel, Word o PowerPoint (COM desde PowerShell) para exportar a PDF y revisarlo; en el `.xlsx`, además, recalcular y guardar los valores.
+Los materiales del alumnado están en `plantillas/`. Rige la misma regla que con las diapositivas: el archivo manda, la primera versión se genera con un script que se niega a sobrescribir (`python matriz_decision.py`, con openpyxl; `node plantillas_word.js` y `node cuaderno.js`, con docx, tras `npm install`, y con el estilo común de `word_comun.js`; `node plantilla_presentacion.js`, que usa el tema y las dependencias de `diapositivas/`), y los cambios posteriores se hacen sobre el archivo. Tras generar, abrir con Excel, Word o PowerPoint (COM desde PowerShell) para exportar a PDF y revisarlo; en el `.xlsx`, además, recalcular y guardar los valores.
 
 - `matriz_decision.xlsx`: Ejercicio 4. La tabla ocupa `A1:F4` y la fórmula es exactamente la del guion, con los pesos escritos dentro (el paso 5 del ejercicio depende de ello). Celdas que rellena el alumnado en ámbar claro; la observación de la IA, en verde azulado claro.
 - `ficha_expres.docx` (bloque 3) y `documento_proyecto.docx` (bloque 4): recuadros en ámbar claro con una pista en gris que se sustituye, y los prompts del guion en un recuadro verde azulado. La ficha ocupa una página y el documento dos; cada uno lleva detrás una página de trabajo que no forma parte del entregable (revisión de la versión de la IA y comprobación antes de entregar).
+- `cuaderno_ejercicios.docx`: el cuaderno de todo el taller, una sección por bloque. No repite las plantillas: el Ejercicio 4 y el bloque 4 remiten a ellas. Los prompts deben coincidir literalmente con los del guion.
 - `presentacion_proyecto.pptx` (bloque 4): tres diapositivas con layouts propios (`PROBLEMA`, `SOLUCION`, `BENEFICIOS`). Las pistas son el texto de ayuda de los placeholders: se ven al editar y no al proyectar, así que para revisarlas hay que rellenar una copia con ese texto antes de renderizar.
 
 ## Flujo de trabajo con git
