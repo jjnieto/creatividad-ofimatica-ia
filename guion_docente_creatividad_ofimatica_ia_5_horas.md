@@ -603,7 +603,7 @@ Pedir a cada participante una técnica que quiera aplicar en un futuro empleo.
 | Cuaderno de ejercicios | Instrucciones y espacios para resolver los cuatro ejercicios (bloques 1 a 3), con espacio para las rondas sin IA y con IA, y para el desarrollo de la propuesta ganadora (bloque 4). |
 | Plantilla Excel / Sheets | Matriz de decisión con la fórmula de puntuación y el espacio para la decisión argumentada, más una hoja con el ejemplo del bloque 3 (`plantillas/matriz_decision.xlsx`; se abre también en Google Sheets). |
 | Plantillas Word / Docs | Ficha exprés de una página (`plantillas/ficha_expres.docx`), con una página aparte para la revisión de la versión de la IA, y documento del proyecto de dos páginas (`plantillas/documento_proyecto.docx`), con una página aparte de comprobación antes de entregar. Se abren también en Google Docs. |
-| Plantilla PowerPoint / Slides | Tres diapositivas: problema, solución y beneficios. |
+| Plantilla PowerPoint / Slides | Tres diapositivas: problema, solución y beneficios (`plantillas/presentacion_proyecto.pptx`; se abre también en Google Slides). Cada recuadro lleva una pista que desaparece al escribir, y las notas del orador recuerdan los criterios de la revisión cruzada. |
 | Ejercicios de reserva | Una presentación por ejercicio (comunidad de vecinos, Oficina Futuro y atención telefónica), con los casos, los prompts y las plantillas de las cinco fases (sección 7). |
 
 **Requisitos técnicos:** ordenador por participante o pareja, conexión a internet, acceso a una IA generativa y suite ofimática. Tener ejemplos y datos ficticios preparados por si falla la conexión.
