@@ -17,7 +17,7 @@ const PIE_Y = 6.95;
 
 const NOTAS_CRITERIOS =
   "Criterios para las tres diapositivas: una idea central por diapositiva, poco texto, títulos claros, " +
-  "gráficos simples y ningún resultado sin justificar. Los textos en gris son pistas: desaparecen al escribir " +
+  "gráficos simples y ningún resultado sin justificar. Los textos de los recuadros son pistas: desaparecen al escribir " +
   "y no se ven al proyectar. Simulación formativa: sin datos personales ni cifras inventadas.";
 
 async function main() {

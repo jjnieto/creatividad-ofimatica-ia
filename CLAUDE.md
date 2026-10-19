@@ -35,7 +35,7 @@ Los materiales del alumnado están en `plantillas/`. Rige la misma regla que con
 
 - `matriz_decision.xlsx`: Ejercicio 4. La tabla ocupa `A1:F4` y la fórmula es exactamente la del guion, con los pesos escritos dentro (el paso 5 del ejercicio depende de ello). Celdas que rellena el alumnado en ámbar claro; la observación de la IA, en verde azulado claro.
 - `ficha_expres.docx` (bloque 3) y `documento_proyecto.docx` (bloque 4): recuadros en ámbar claro con una pista en gris que se sustituye, y los prompts del guion en un recuadro verde azulado. La ficha ocupa una página y el documento dos; cada uno lleva detrás una página de trabajo que no forma parte del entregable (revisión de la versión de la IA y comprobación antes de entregar).
-- `presentacion_proyecto.pptx` (bloque 4): tres diapositivas con layouts propios (`PROBLEMA`, `SOLUCION`, `BENEFICIOS`). Las pistas son el texto de ayuda de los placeholders: se ven en gris al editar y no al proyectar, así que para revisarlas hay que rellenar una copia con ese texto antes de renderizar.
+- `presentacion_proyecto.pptx` (bloque 4): tres diapositivas con layouts propios (`PROBLEMA`, `SOLUCION`, `BENEFICIOS`). Las pistas son el texto de ayuda de los placeholders: se ven al editar y no al proyectar, así que para revisarlas hay que rellenar una copia con ese texto antes de renderizar.
 
 ## Flujo de trabajo con git
 
