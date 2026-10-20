@@ -94,6 +94,8 @@ Subrayar que la creatividad no se limita a ámbitos artísticos: también consis
 
 **Criterio para resolver las dudas:** ¿es solo una idea o ya se ha puesto en práctica? ¿Aporta valor? Las situaciones 5 y 6 son discutibles a propósito: lo importante es el razonamiento, no acertar.
 
+Después de cada votación, mostrar la diapositiva con la respuesta y el porqué.
+
 #### Minutos 10–15. Pensamiento divergente y convergente
 
 **Minutos 10–12. Actividad: ¿para qué sirve un clip?** Cada persona, en silencio y por escrito, anota en 90 segundos todos los usos que se le ocurran para un clip. Después, cada una dice cuántos ha escrito y quien tenga más lee su lista.
