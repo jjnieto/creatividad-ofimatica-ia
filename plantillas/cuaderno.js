@@ -1,5 +1,5 @@
-// Primera versión de cuaderno_ejercicios.docx: instrucciones y espacios del alumnado para todo el taller.
-// Los entregables con plantilla propia (matriz, ficha, documento y presentación) no se repiten: se remite a ellas.
+// Primera versión de cuaderno_ejercicios.docx: el espacio para pensar de los bloques 1, 2 y 5.
+// Lo que se entrega en los bloques 3 y 4 va en sus propios archivos (matriz, documento y presentación) y no se repite aquí.
 // Como con las diapositivas, el .docx manda: si ya existe, el script no lo sobrescribe.
 // Uso: node cuaderno.js [carpeta_salida]
 const {
@@ -29,11 +29,11 @@ function portada() {
       "En los prompts se describe el proceso, nunca a las personas: sin nombres ni datos personales o confidenciales.",
       "Es una simulación formativa: los datos de los casos son supuestos didácticos y no se inventan resultados.",
     ]),
-    apartado("Plantillas que usaréis además de este cuaderno"),
-    tabla(["Plantilla", "Para qué", "Bloque"], [3400, 4938, 1300], [
-      [{ fija: "matriz_decision.xlsx" }, { nota: "Comparar las tres propuestas y elegir la ganadora (Ejercicio 4)" }, { nota: "3" }],
-      [{ fija: "ficha_expres.docx" }, { nota: "Ficha de una página de la propuesta ganadora" }, { nota: "3" }],
-      [{ fija: "documento_proyecto.docx" }, { nota: "Documento del proyecto, de dos páginas como máximo" }, { nota: "4" }],
+    apartado("Los cuatro archivos del taller, en orden"),
+    tabla(["Archivo", "Para qué", "Bloques"], [3400, 4938, 1300], [
+      [{ fija: "cuaderno_ejercicios.docx" }, { nota: "Este cuaderno: generar ideas, elegir las tres mejores propuestas y preparar la defensa" }, { nota: "1, 2 y 5" }],
+      [{ fija: "matriz_decision.xlsx" }, { nota: "Comparar las tres propuestas y elegir la ganadora" }, { nota: "3" }],
+      [{ fija: "documento_proyecto.docx" }, { nota: "La propuesta ganadora por escrito: primero la ficha exprés y después, en el mismo archivo, el documento completo" }, { nota: "3 y 4" }],
       [{ fija: "presentacion_proyecto.pptx" }, { nota: "Presentación en tres diapositivas" }, { nota: "4" }],
     ], 350),
     parrafo([["Se abren también en Google Sheets, Docs y Slides.", { italics: true, color: GRIS, size: 20 }]], { spacing: { before: 80 } }),
@@ -145,11 +145,9 @@ function bloque2() {
 
     saltoPagina(),
     ...titulo("Las tres mejores propuestas", "Reunid las ideas de SCAMPER y de la provocación, vuestras y de la IA, y quedaos con tres."),
-    apartado("Problema"),
-    caja("El problema del caso, en una frase.", 600),
-    espacio(),
     tabla(["", "Propuesta", "Por qué la elegimos: coste, beneficio y facilidad de aplicación", "Origen"], [500, 3300, 4038, 1800],
       [1, 2, 3].map((n) => [{ fija: String(n) }, "", "", "Pareja, IA o combinación"]), 1300),
+    parrafo([["Estas tres propuestas son las que llevaréis a la matriz de decisión (matriz_decision.xlsx) en el bloque 3.", { italics: true, color: GRIS, size: 20 }]], { spacing: { before: 80, after: 100 } }),
     apartado("Puesta en común"),
     caja("¿De dónde han salido las propuestas elegidas? ¿Qué técnica ha dado ideas más aplicables? ¿Y más originales?", 1000),
     apartado("¿Qué falla aquí?"),
@@ -160,56 +158,6 @@ function bloque2() {
     ]),
     espacio(),
     caja("Problemas que encontramos.", 1300),
-  ];
-}
-
-function bloque3() {
-  return [
-    saltoPagina(),
-    ...titulo("Bloque 3. Comparar, decidir y documentar", "Ejercicio 4 y ficha exprés de la propuesta ganadora."),
-    apartado("Ejercicio 4. Elegir con criterio"),
-    parrafo([["Plantilla: ", { bold: true }], ["matriz_decision.xlsx", { bold: true }], [". Ahí anotáis también la decisión y sus razones."]]),
-    ...numerada([
-      "Introducid vuestras tres propuestas del bloque 2.",
-      "Puntuad cada criterio del 1 al 5: impacto (35 %), viabilidad (30 %), bajo coste (20 %, 5 = muy económica) y originalidad (15 %).",
-      "Ordenad las propuestas por resultado y discutid si la primera os parece realmente la más adecuada.",
-      "Dad más peso al coste (los pesos siempre suman 100 %) y observad si cambia la clasificación.",
-      "Pedid a la IA que revise la matriz y comprobad si sus observaciones son correctas.",
-      [["Decidid: «Elegimos… porque…».", { bold: true }], [" No tiene por qué ser la de mayor puntuación, pero si no lo es, explicad por qué."]],
-    ]),
-    espacio(),
-    prompt("Prompt para que la IA revise la matriz", [
-      "Te paso una matriz de decisión con tres propuestas, cuatro criterios",
-      "puntuados del 1 al 5 y sus pesos: [pegar la tabla con los pesos].",
-      "Revísala: comprueba si los cálculos son correctos, si alguna",
-      "puntuación parece incoherente con la descripción de la propuesta",
-      "y si falta algún criterio importante. Justifica cada observación.",
-    ]),
-    apartado("Ficha exprés de la propuesta ganadora"),
-    parrafo([["Plantilla: ", { bold: true }], ["ficha_expres.docx", { bold: true }], [". La pedís a la IA con el prompt de la plantilla y marcáis tres cosas que cambiaríais: algo que sobra, algo que falta y algo que no es cierto o no está justificado. Esta ficha es el borrador del documento del bloque 4."]]),
-    apartado("Síntesis"),
-    parrafo([["Detectar → idear → comparar → decidir → documentar", { bold: true }]]),
-    caja("¿Qué paso de la secuencia os ha costado más hasta ahora y por qué? Una frase.", 800),
-  ];
-}
-
-function bloque4() {
-  return [
-    saltoPagina(),
-    ...titulo("Bloque 4. Desarrollo de la propuesta ganadora", "Convertir la propuesta en un proyecto defendible."),
-    apartado("Preguntas difíciles antes de seguir"),
-    parrafo("Os juntáis con otra pareja. Le explicáis vuestra propuesta en un minuto, con la ficha exprés delante, y os hace dos preguntas difíciles (¿cuánto cuesta?, ¿quién se encarga?, ¿qué pasa si alguien no lo usa?, ¿cómo sabremos si funciona?). Después, al revés."),
-    tabla(["Pregunta que nos han hecho", "¿Supimos responder?"], [6638, 3000], [["", "Sí o no"], ["", "Sí o no"]], 600),
-    parrafo([["Las que no supisteis responder son lo primero que tiene que resolver el documento: pasadlas a su última página.", { italics: true, color: GRIS, size: 20 }]], { spacing: { before: 80, after: 100 } }),
-    apartado("Lo que vais a preparar"),
-    tabla(["Qué", "Plantilla", "Clave"], [2600, 2900, 4138], [
-      [{ fija: "Documento del proyecto" }, { nota: "documento_proyecto.docx" }, { nota: "Siete apartados, máximo dos páginas. Cada apartado lo revisáis: qué sobra, qué falta y qué no es cierto." }],
-      [{ fija: "Dos indicadores" }, { nota: "documento_proyecto.docx, apartado 4" }, { nota: "Primero pensáis los vuestros; después, si queréis, pedís ideas a la IA. Se explica cómo se mide, no qué se conseguirá." }],
-      [{ fija: "Presentación" }, { nota: "presentacion_proyecto.pptx" }, { nota: "Tres diapositivas: problema, solución y beneficios. Una idea por diapositiva y poco texto." }],
-    ], 500),
-    apartado("Revisión cruzada"),
-    parrafo("Os intercambiáis la presentación con la pareja de las preguntas difíciles y comprobáis: ¿una idea por diapositiva?, ¿poco texto?, ¿alguna cifra sin justificar?"),
-    tabla(["Mejora que nos propone la otra pareja", "Mejora que les proponemos"], [4819, 4819], [["", ""]], 1200),
   ];
 }
 
@@ -262,7 +210,7 @@ function bloque5b() {
 }
 
 function cuaderno() {
-  return documento([...portada(), ...bloque1(), ...bloque2(), ...bloque3(), ...bloque4(), ...bloque5(), ...bloque5b()], "Cuaderno de ejercicios");
+  return documento([...portada(), ...bloque1(), ...bloque2(), ...bloque5(), ...bloque5b()], "Cuaderno de ejercicios");
 }
 
 guardar(CARPETA, [["cuaderno_ejercicios.docx", cuaderno]]);

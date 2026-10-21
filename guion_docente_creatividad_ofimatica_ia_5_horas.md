@@ -149,7 +149,7 @@ Mostrar que la última idea, que parecía absurda, conduce a una idea sensata.
 
 #### Minutos 20–30. Ejercicio 1, ronda sin IA: brainstorming entre todos
 
-El Ejercicio 1 es una primera prueba de la técnica, con un reto aparte. Las propuestas del proyecto de cada pareja saldrán de SCAMPER y de la provocación, en el bloque 2.
+El Ejercicio 1 es una primera prueba de la técnica, con un reto aparte. Cada persona anota en el cuaderno de ejercicios (`cuaderno_ejercicios.docx`), que se usa ya desde la actividad del clip y en los bloques 1, 2 y 5. Las propuestas del proyecto de cada pareja saldrán de SCAMPER y de la provocación, en el bloque 2.
 
 **Reto:** *¿Cómo podríamos conseguir que más personas pidan información sobre los cursos de una academia de formación que recibe pocas solicitudes?*
 
@@ -215,7 +215,7 @@ Cada persona marca las tres ideas que le parecen más originales, sin fijarse en
 
 **Objetivo:** aplicar dos técnicas estructuradas, primero sin IA y después con IA, sobre un mismo caso profesional, y seleccionar las tres mejores propuestas.
 
-**Organización:** parejas. Cada pareja elige uno de estos casos y trabaja con él durante todo el bloque. Las tres propuestas que seleccione al final se evaluarán en la matriz del bloque 3.
+**Organización:** parejas. Cada pareja elige uno de estos casos y trabaja con él durante todo el bloque, en el cuaderno de ejercicios. Las tres propuestas que seleccione al final se evaluarán en la matriz del bloque 3.
 
 1. **Un comercio que pierde pedidos.** Los pedidos llegan por teléfono, WhatsApp y en el mostrador; se apuntan en una libreta y a veces se olvidan o se sirven tarde.
 2. **Una asociación que pierde tiempo organizando actividades.** Las actividades se anuncian por WhatsApp y las inscripciones se apuntan en una hoja de Excel que solo actualiza una persona; se pierden inscripciones y quedan plazas sin cubrir.
@@ -385,7 +385,7 @@ Copiar hacia abajo. Explicar que los resultados dependen de las puntuaciones y p
 
 Por parejas, con sus tres propuestas del bloque 2:
 
-1. Introducir las tres propuestas en Excel o Sheets.
+1. Introducir las tres propuestas en la plantilla `matriz_decision.xlsx` (Excel o Sheets).
 2. Puntuar cada criterio y calcular el total ponderado.
 3. Ordenar las propuestas por resultado.
 4. Discutir si la primera les parece realmente la más adecuada.
@@ -435,10 +435,10 @@ Por parejas, con la propuesta que acaban de elegir:
    Usa frases cortas y no inventes cifras ni resultados.
    ```
 
-2. Pasarla a Word o Google Docs y marcar **tres cosas que cambiarían** (algo que sobra, algo que falta y algo que no es cierto o no está justificado).
+2. Pegarla en los apartados 1 a 6 del documento del proyecto (`documento_proyecto.docx`, en Word o Google Docs) y marcar **tres cosas que cambiarían** (algo que sobra, algo que falta y algo que no es cierto o no está justificado).
 3. Corregirlas.
 
-**Puesta en común (últimos 4 minutos):** dos o tres parejas cuentan qué han cambiado y por qué. Esta ficha es el borrador del documento del bloque 4.
+**Puesta en común (últimos 4 minutos):** dos o tres parejas cuentan qué han cambiado y por qué. Esta ficha es la primera versión del documento del bloque 4, que se amplía en el mismo archivo.
 
 #### Minutos 160–165. Síntesis
 
@@ -458,11 +458,11 @@ Secuencia a recordar: **detectar → idear → comparar → decidir → document
 
 Antes de desarrollar el proyecto, hay que ponerlo a prueba.
 
-**Actividad: intercambio de parejas.** Las parejas se juntan de dos en dos. La pareja A explica su propuesta en un minuto con la ficha exprés delante; la pareja B le hace **dos preguntas difíciles** (¿cuánto cuesta?, ¿quién se encarga?, ¿qué pasa si alguien no lo usa?, ¿cómo sabremos si funciona?). Después se cambian los papeles. Cada pareja apunta las preguntas que no ha sabido responder: son lo primero que tiene que resolver el documento.
+**Actividad: intercambio de parejas.** Las parejas se juntan de dos en dos. La pareja A explica su propuesta en un minuto con la ficha exprés delante; la pareja B le hace **dos preguntas difíciles** (¿cuánto cuesta?, ¿quién se encarga?, ¿qué pasa si alguien no lo usa?, ¿cómo sabremos si funciona?). Después se cambian los papeles. Cada pareja apunta en la página de trabajo del documento del proyecto las preguntas que no ha sabido responder: son lo primero que tiene que resolver el documento.
 
 #### Minutos 175–195. Documento del proyecto
 
-En Word o Google Docs, ampliar la ficha exprés hasta el documento del proyecto, de **máximo dos páginas**. Tiene los seis apartados de la ficha, ampliados, y uno nuevo:
+En el mismo archivo de la ficha exprés (`documento_proyecto.docx`, en Word o Google Docs), ampliarla hasta el documento del proyecto, de **máximo dos páginas**. Tiene los seis apartados de la ficha, ampliados, y uno nuevo:
 
 1. Nombre de la propuesta.
 2. Problema.
@@ -498,7 +498,7 @@ La pareja elige los dos indicadores que mejor demuestren si la propuesta resuelv
 
 #### Minutos 210–235. Presentación en tres diapositivas
 
-En PowerPoint o Slides:
+En PowerPoint o Slides, con la plantilla `presentacion_proyecto.pptx`:
 
 1. **El problema:** situación y por qué importa.
 2. **La solución:** funcionamiento y herramientas.
@@ -601,10 +601,10 @@ Pedir a cada participante una técnica que quiera aplicar en un futuro empleo.
 
 | Material | Contenido |
 |---|---|
-| Presentación | `diapositivas/Curso.pptx`: el prólogo y los cinco bloques en un solo archivo (101 diapositivas), con conceptos, demostraciones, preguntas y actividades; las indicaciones para el docente van en las notas del orador. Aparte, `historia_unreal.pptx`, versión ampliada de la historia del bloque 1. |
-| Cuaderno de ejercicios | Instrucciones y espacios para todo el taller (`plantillas/cuaderno_ejercicios.docx`): los ejercicios 1 a 3 con sus rondas sin IA y con IA, la selección de las tres propuestas y «¿Qué falla aquí?»; las instrucciones del Ejercicio 4 y del bloque 4, que remiten a las plantillas, y las actividades del bloque 5 (observación, IA como evaluador crítico y relato para la entrevista). |
+| Presentación | `diapositivas/Curso.pptx`: el prólogo y los cinco bloques en un solo archivo (101 diapositivas), con conceptos, demostraciones, preguntas y actividades; las indicaciones para el docente van en las notas del orador. Cada vez que toca usar una plantilla, una diapositiva indica el archivo y cómo usarlo. Aparte, `historia_unreal.pptx`, versión ampliada de la historia del bloque 1. |
+| Cuaderno de ejercicios | El espacio para pensar de los bloques 1, 2 y 5 (`plantillas/cuaderno_ejercicios.docx`): los ejercicios 1 a 3 con sus rondas sin IA y con IA, la selección de las tres propuestas, «¿Qué falla aquí?» y las actividades del bloque 5 (observación, IA como evaluador crítico y relato para la entrevista). Lo que se entrega en los bloques 3 y 4 no está aquí, sino en sus propios archivos. |
 | Plantilla Excel / Sheets | Matriz de decisión con la fórmula de puntuación y el espacio para la decisión argumentada, más una hoja con el ejemplo del bloque 3 (`plantillas/matriz_decision.xlsx`; se abre también en Google Sheets). |
-| Plantillas Word / Docs | Ficha exprés de una página (`plantillas/ficha_expres.docx`), con una página aparte para la revisión de la versión de la IA, y documento del proyecto de dos páginas (`plantillas/documento_proyecto.docx`), con una página aparte de comprobación antes de entregar. Se abren también en Google Docs. |
+| Plantilla Word / Docs | Documento del proyecto (`plantillas/documento_proyecto.docx`; se abre también en Google Docs): un solo archivo que crece. En el bloque 3 se rellenan los apartados 1 a 6 en versión corta (la ficha exprés) y en el bloque 4 se amplían hasta dos páginas como máximo. Detrás lleva una página de trabajo: la revisión de la ficha de la IA, las preguntas difíciles, el prompt de indicadores y la comprobación antes de entregar. |
 | Plantilla PowerPoint / Slides | Tres diapositivas: problema, solución y beneficios (`plantillas/presentacion_proyecto.pptx`; se abre también en Google Slides). Cada recuadro lleva una pista que desaparece al escribir, y las notas del orador recuerdan los criterios de la revisión cruzada. |
 | Ejercicios de reserva | Una presentación por ejercicio (comunidad de vecinos, Oficina Futuro y atención telefónica), con los casos, los prompts y las plantillas de las cinco fases (sección 7). |
 

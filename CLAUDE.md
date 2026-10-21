@@ -27,15 +27,18 @@ powershell -ExecutionPolicy Bypass -File renderizar.ps1 bloqueN.pptx render   # 
 - `prologo.pptx` (script `prologo.js`) y las tres presentaciones de los ejercicios de reserva, `reservaN_*.pptx`, que se generan con un único script, `reservas.js`.
 - `historia_unreal.pptx` (script `historia_unreal.js`) es una presentación aparte, de apoyo a la regla «primero las personas»: la historia de Unreal Engine 5 con fuentes. El repositorio es público: no se incluyen capturas con derechos de autor, sino huecos señalados para que el docente las pegue.
 - Las indicaciones para el docente (tiempos, respuestas orientativas) van en las notas del orador, no en la diapositiva.
+- En `Curso.pptx`, cada vez que el alumnado empieza a usar una plantilla hay una diapositiva «Abrid…» con el nombre del archivo y tres instrucciones mínimas. Si cambia una plantilla o su momento de uso, actualizar también esa diapositiva.
 - Al generar, validar con el script `validate.py` de la skill de pptx y revisar las imágenes renderizadas.
 
 ## Plantillas
 
 Los materiales del alumnado están en `plantillas/`. Rige la misma regla que con las diapositivas: el archivo manda, la primera versión se genera con un script que se niega a sobrescribir (`python matriz_decision.py`, con openpyxl; `node plantillas_word.js` y `node cuaderno.js`, con docx, tras `npm install`, y con el estilo común de `word_comun.js`; `node plantilla_presentacion.js`, que usa el tema y las dependencias de `diapositivas/`), y los cambios posteriores se hacen sobre el archivo. Tras generar, abrir con Excel, Word o PowerPoint (COM desde PowerShell) para exportar a PDF y revisarlo; en el `.xlsx`, además, recalcular y guardar los valores.
 
+**Un archivo por fase y ningún dato escrito dos veces:** el alumnado usa, en orden, el cuaderno (bloques 1, 2 y 5), la matriz (bloque 3), el documento del proyecto (bloques 3 y 4) y la presentación (bloque 4). Al cambiar una plantilla, no repetir en ella campos que ya estén en otra.
+
 - `matriz_decision.xlsx`: Ejercicio 4. La tabla ocupa `A1:F4` y la fórmula es exactamente la del guion, con los pesos escritos dentro (el paso 5 del ejercicio depende de ello). Celdas que rellena el alumnado en ámbar claro; la observación de la IA, en verde azulado claro.
-- `ficha_expres.docx` (bloque 3) y `documento_proyecto.docx` (bloque 4): recuadros en ámbar claro con una pista en gris que se sustituye, y los prompts del guion en un recuadro verde azulado. La ficha ocupa una página y el documento dos; cada uno lleva detrás una página de trabajo que no forma parte del entregable (revisión de la versión de la IA y comprobación antes de entregar).
-- `cuaderno_ejercicios.docx`: el cuaderno de todo el taller, una sección por bloque. No repite las plantillas: el Ejercicio 4 y el bloque 4 remiten a ellas. Los prompts deben coincidir literalmente con los del guion.
+- `documento_proyecto.docx` (bloques 3 y 4): un solo archivo que crece. En el bloque 3 se rellenan los apartados 1 a 6 en versión corta (es la ficha exprés; ya no hay un archivo aparte) y en el bloque 4 se amplían hasta dos páginas. Recuadros en ámbar claro con una pista en gris que se sustituye, y los prompts del guion en un recuadro verde azulado. Detrás, una página de trabajo que no forma parte del entregable.
+- `cuaderno_ejercicios.docx`: el espacio para pensar de los bloques 1, 2 y 5. No incluye nada de lo que se entrega en los bloques 3 y 4. Los prompts deben coincidir literalmente con los del guion.
 - `presentacion_proyecto.pptx` (bloque 4): tres diapositivas con layouts propios (`PROBLEMA`, `SOLUCION`, `BENEFICIOS`). Las pistas son el texto de ayuda de los placeholders: se ven al editar y no al proyectar, así que para revisarlas hay que rellenar una copia con ese texto antes de renderizar.
 
 ## Flujo de trabajo con git
