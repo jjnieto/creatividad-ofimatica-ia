@@ -24,9 +24,9 @@ CRITERIOS = ["Impacto", "Viabilidad", "Bajo coste", "Originalidad"]
 # La fórmula del guion, con los pesos escritos dentro (paso 5 del Ejercicio 4).
 FORMULA = "=B{f}*35%+C{f}*30%+D{f}*20%+E{f}*15%"
 EJEMPLO = [
-    ("Formulario digital", 4, 5, 5, 3),
-    ("Chatbot informativo", 4, 3, 2, 4),
-    ("Panel de seguimiento", 5, 4, 4, 3),
+    ("Reserva por internet", 4, 5, 5, 3),
+    ("Turno visible en el móvil", 4, 3, 2, 4),
+    ("Abono con cita fija", 5, 4, 4, 3),
 ]
 
 
@@ -142,7 +142,7 @@ def hoja_ejemplo(wb):
     anchos(ws)
     matriz(ws, EJEMPLO)
     leyenda(ws, "Ejemplo", [
-        "Propuestas de la explicación del bloque 3. Los datos son supuestos didácticos.",
+        "Propuestas del ejemplo de la peluquería (bloque 3). Los datos son supuestos didácticos.",
         "Comprobación a mano: 4×0,35 + 5×0,30 + 5×0,20 + 3×0,15 = 4,35.",
     ])
 

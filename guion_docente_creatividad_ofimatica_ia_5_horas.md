@@ -363,13 +363,13 @@ Puntuar cada alternativa del 1 al 5 con cuatro criterios:
 - Bajo coste: **20 %** (5 = muy económica).
 - Originalidad: **15 %**.
 
-**Actividad: calculadlo vosotros (3 minutos).** Proyectar la tabla con la columna «Resultado» vacía. Por parejas, con la calculadora del móvil, calcular el resultado de una propuesta (cada pareja la que le indique el docente). Después, mostrar los resultados:
+**Actividad: calculadlo vosotros (3 minutos).** Proyectar la tabla con la columna «Resultado» vacía. Por parejas, con la calculadora del móvil, calcular el resultado de una propuesta (cada pareja la que le indique el docente). Las tres propuestas son del ejemplo de la peluquería, salidas de SCAMPER y de la provocación. Después, mostrar los resultados:
 
 | Propuesta | Impacto | Viabilidad | Bajo coste | Originalidad | Resultado |
 |---|---:|---:|---:|---:|---:|
-| Formulario digital | 4 | 5 | 5 | 3 | 4,35 |
-| Chatbot informativo | 4 | 3 | 2 | 4 | 3,30 |
-| Panel de seguimiento | 5 | 4 | 4 | 3 | 4,20 |
+| Reserva por internet | 4 | 5 | 5 | 3 | 4,35 |
+| Turno visible en el móvil | 4 | 3 | 2 | 4 | 3,30 |
+| Abono con cita fija | 5 | 4 | 4 | 3 | 4,20 |
 
 Una vez hecho a mano, se entiende lo que hace la fórmula.
 
@@ -412,13 +412,13 @@ Por parejas, con sus tres propuestas del bloque 2:
 
 **Ejemplo:**
 
-**Nombre de la propuesta:** Sistema de seguimiento de solicitudes.
+**Nombre de la propuesta:** Reserva y recordatorio de citas (la peluquería).
 
-- **Problema:** una pequeña empresa pierde peticiones entre correos dispersos.
-- **Solución:** centralizar solicitudes en un formulario y una hoja compartida.
-- **Beneficios esperados:** disminuir olvidos y facilitar el seguimiento.
-- **Recursos:** herramientas ya disponibles y una breve capacitación interna.
-- **Riesgos:** errores de registro, accesos inadecuados y resistencia al cambio.
+- **Problema:** el teléfono interrumpe el trabajo y hay clientes que olvidan su cita.
+- **Solución:** formulario de reserva, agenda en una hoja compartida y recordatorio el día anterior.
+- **Beneficios esperados:** menos interrupciones y menos citas perdidas.
+- **Recursos:** herramientas ya disponibles y una breve formación interna.
+- **Riesgos:** datos de clientes, clientes que prefieren llamar y olvidos al enviar el recordatorio.
 
 **Demostración de IA:** solicitar una versión más clara y concisa, y decidir qué propuestas de edición aceptar o rechazar.
 
@@ -482,7 +482,7 @@ La IA puede ayudar a redactar, pero cada apartado lo revisa la pareja con el mis
 
 #### Minutos 195–210. ¿Cómo sabremos si funciona?
 
-Definir **dos indicadores medibles** y explicar cómo se recogerían los datos antes y después de una prueba de un mes. Ejemplos: tiempo de tramitación, consultas sin respuesta, pedidos servidos tarde o plazas sin cubrir.
+Definir **dos indicadores medibles** y explicar cómo se recogerían los datos antes y después de una prueba de un mes. Ejemplo con la peluquería: citas perdidas cada semana. Otros indicadores habituales: tiempo de respuesta, errores, quejas o ausencias. No poner ejemplos de los casos de las parejas: sería darles hecha parte del trabajo.
 
 Primero, la pareja piensa sus propios indicadores. Después, puede pedir ideas a la IA:
 
@@ -522,9 +522,9 @@ Las parejas se intercambian las presentaciones con la pareja del minuto 165 y co
 
 **Minutos 240–244. Actividad: ¿cuál convence más?** El docente lee dos versiones de la misma propuesta y el grupo dice cuál aprobaría y por qué.
 
-> **Versión A:** «Proponemos usar formularios de Google, una hoja de cálculo compartida y un chatbot con IA. Es muy moderno, es gratis y todas las empresas lo están usando».
+> **Versión A:** «Proponemos reservas por internet, una hoja de cálculo compartida y un asistente con IA. Es muy moderno, es gratis y todas las peluquerías lo están usando».
 >
-> **Versión B:** «Nuestra oficina pierde consultas porque llegan por teléfono y por correo y nadie se encarga de ellas. Proponemos un formulario único que guarde cada consulta en una hoja compartida, con una persona responsable cada día. Lo probaríamos un mes y mediríamos cuántas consultas quedan sin respuesta».
+> **Versión B:** «En nuestra peluquería el teléfono interrumpe el trabajo y hay clientes que olvidan su cita. Proponemos un formulario de reserva que guarde cada cita en una hoja compartida y un recordatorio el día anterior. Lo probaríamos un mes y mediríamos cuántas citas se pierden».
 
 La versión A habla de herramientas y hace afirmaciones sin justificar; la B parte del problema, explica la solución y dice cómo se medirá. De ahí sale la estructura:
 
@@ -601,7 +601,7 @@ Pedir a cada participante una técnica que quiera aplicar en un futuro empleo.
 
 | Material | Contenido |
 |---|---|
-| Presentación | `diapositivas/Curso.pptx`: el prólogo y los cinco bloques en un solo archivo (101 diapositivas), con conceptos, demostraciones, preguntas y actividades; las indicaciones para el docente van en las notas del orador. Cada vez que toca usar una plantilla, una diapositiva indica el archivo y cómo usarlo. Aparte, `historia_unreal.pptx`, versión ampliada de la historia del bloque 1. |
+| Presentación | `diapositivas/Curso.pptx`: el prólogo y los cinco bloques en un solo archivo (108 diapositivas), con conceptos, demostraciones, preguntas y actividades; las indicaciones para el docente van en las notas del orador. Cada vez que toca usar una plantilla, una diapositiva indica el archivo y cómo usarlo. Aparte, `historia_unreal.pptx`, versión ampliada de la historia del bloque 1. |
 | Cuaderno de ejercicios | El espacio para pensar de los bloques 1, 2 y 5 (`plantillas/cuaderno_ejercicios.docx`): los ejercicios 1 a 3 con sus rondas sin IA y con IA, la selección de las tres propuestas, «¿Qué falla aquí?» y las actividades del bloque 5 (observación, IA como evaluador crítico y relato para la entrevista). Lo que se entrega en los bloques 3 y 4 no está aquí, sino en sus propios archivos. |
 | Plantilla Excel / Sheets | Matriz de decisión con la fórmula de puntuación y el espacio para la decisión argumentada, más una hoja con el ejemplo del bloque 3 (`plantillas/matriz_decision.xlsx`; se abre también en Google Sheets). |
 | Plantilla Word / Docs | Documento del proyecto (`plantillas/documento_proyecto.docx`; se abre también en Google Docs): un solo archivo que crece. En el bloque 3 se rellenan los apartados 1 a 6 en versión corta (la ficha exprés) y en el bloque 4 se amplían hasta dos páginas como máximo. Detrás lleva una página de trabajo: la revisión de la ficha de la IA, las preguntas difíciles, el prompt de indicadores y la comprobación antes de entregar. |

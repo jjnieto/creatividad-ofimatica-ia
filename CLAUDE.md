@@ -70,6 +70,8 @@ Hilo conductor entre bloques: continuidad completa sobre el trabajo de cada pare
 
 - Cada tramo de minutos debe tener una actividad del alumnado (votación, clasificación, cálculo, ronda, ensayo...), no solo explicación del docente: un tramo que solo es «explicar» no llena el tiempo asignado. Dentro de un tramo largo, se desglosa en sub-tramos en negrita («**Minutos X–Y.** ...»).
 
+- **Todos los ejemplos del curso son de la peluquería** (o de un reto aparte, como la academia del Ejercicio 1), nunca de los tres casos que eligen las parejas (comercio, asociación y oficina): un ejemplo con uno de esos casos le da hecho el trabajo a la pareja que lo elija. Vale para la ficha, la matriz, los indicadores, la versión A/B y cualquier ejemplo nuevo, en el guion, en `Curso.pptx` y en las plantillas.
+
 - Técnicas creativas: brainstorming (bloque 1, entre todo el grupo), SCAMPER y provocación (bloque 2, por parejas). Cada una sigue el mismo patrón: explicación con el ejemplo común de la peluquería, ronda sin IA, ronda con IA con un prompt optimizado (seguido de «Por qué funciona este prompt») y comparación. Las personas siempre van antes que la IA.
 
 - Español de España con ortografía y tildes completas; tratamiento de «vosotros» al dirigirse al grupo.

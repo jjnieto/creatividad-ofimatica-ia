@@ -14,7 +14,7 @@ function proyecto() {
       ["Bloque 4: ", { bold: true, size: 20 }], ["ampliáis cada apartado y rellenáis lo marcado «bloque 4».", { size: 20 }]],
       { spacing: { before: 120, after: 0 } }),
     apartado("1. Nombre de la propuesta"),
-    caja("Un nombre corto que diga qué es. Por ejemplo: Sistema de seguimiento de solicitudes.", 450),
+    caja("Un nombre corto que diga qué es. Por ejemplo, en la peluquería: Reserva y recordatorio de citas.", 450),
     apartado("2. Problema"),
     caja("Bloque 3: qué no funciona y a quién afecta. Bloque 4: añadid por qué importa.", 1000),
     apartado("3. Solución: cómo funciona"),
