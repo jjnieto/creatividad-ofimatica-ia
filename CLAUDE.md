@@ -10,7 +10,7 @@ El único documento actual es `guion_docente_creatividad_ofimatica_ia_5_horas.md
 
 ## Diapositivas
 
-Las presentaciones de apoyo están en `diapositivas/`, una por bloque (`bloqueN.pptx`). La primera versión de cada una se genera con `pptxgenjs` a partir de un script por bloque (`bloqueN.js`).
+La presentación de referencia es **`diapositivas/Curso.pptx`**: el prólogo y los bloques 1 a 5 en un solo archivo. Es la que usa el docente y la única que se actualiza. Las presentaciones por bloque (`prologo.pptx`, `bloqueN.pptx`) son la primera versión, de la que salió `Curso.pptx`, y ya no se mantienen: un cambio en el curso se hace en `Curso.pptx`, no en ellas. La primera versión de cada una se generó con `pptxgenjs` a partir de un script por bloque (`bloqueN.js`).
 
 **El PowerPoint manda.** El usuario edita los `.pptx` a mano en PowerPoint. Un `.pptx` existente **nunca se regenera**: los cambios se hacen editando el archivo en el sitio (añadir o modificar diapositivas concretas) y conservando todo lo demás. Antes de tocarlo, el usuario debe guardarlo y cerrarlo, y se hace commit de su versión tal cual. `guardar()` en `comun.js` se niega a sobrescribir un `.pptx` que ya existe. Los scripts `bloqueN.js` quedan como registro de la primera versión y ya no reflejan el contenido actual del `.pptx`.
 
