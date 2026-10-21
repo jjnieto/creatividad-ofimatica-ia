@@ -27,7 +27,7 @@ powershell -ExecutionPolicy Bypass -File renderizar.ps1 bloqueN.pptx render   # 
 - `prologo.pptx` (script `prologo.js`) y las tres presentaciones de los ejercicios de reserva, `reservaN_*.pptx`, que se generan con un único script, `reservas.js`.
 - `historia_unreal.pptx` (script `historia_unreal.js`) es una presentación aparte, de apoyo a la regla «primero las personas»: la historia de Unreal Engine 5 con fuentes. El repositorio es público: no se incluyen capturas con derechos de autor, sino huecos señalados para que el docente las pegue.
 - Las indicaciones para el docente (tiempos, respuestas orientativas) van en las notas del orador, no en la diapositiva.
-- En `Curso.pptx`, cada vez que el alumnado empieza a usar una plantilla hay una diapositiva «Abrid…» con el nombre del archivo y tres instrucciones mínimas. Si cambia una plantilla o su momento de uso, actualizar también esa diapositiva.
+- En `Curso.pptx`, cada vez que el alumnado empieza a usar una plantilla hay una diapositiva «Abrid…» con el nombre del archivo y tres instrucciones mínimas. Su contenido está registrado en `diapositivas_plantillas.js`, que las genera en un `.pptx` aparte (con `SALIDA`); se insertaron en `Curso.pptx` editando el archivo, sin regenerarlo. Si cambia una plantilla o su momento de uso, actualizar también esa diapositiva.
 - Al generar, validar con el script `validate.py` de la skill de pptx y revisar las imágenes renderizadas.
 
 ## Plantillas
