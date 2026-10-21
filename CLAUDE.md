@@ -28,6 +28,7 @@ powershell -ExecutionPolicy Bypass -File renderizar.ps1 bloqueN.pptx render   # 
 - `historia_unreal.pptx` (script `historia_unreal.js`) es una presentación aparte, de apoyo a la regla «primero las personas»: la historia de Unreal Engine 5 con fuentes. El repositorio es público: no se incluyen capturas con derechos de autor, sino huecos señalados para que el docente las pegue.
 - Las indicaciones para el docente (tiempos, respuestas orientativas) van en las notas del orador, no en la diapositiva.
 - En `Curso.pptx`, cada vez que el alumnado empieza a usar una plantilla hay una diapositiva «Abrid…» con el nombre del archivo y tres instrucciones mínimas. Su contenido está registrado en `diapositivas_plantillas.js`, que las genera en un `.pptx` aparte (con `SALIDA`); se insertaron en `Curso.pptx` editando el archivo, sin regenerarlo. Si cambia una plantilla o su momento de uso, actualizar también esa diapositiva.
+- Además, **toda diapositiva en la que el alumnado escribe algo** lleva abajo a la derecha la etiqueta «Dónde escribir»: lápiz, archivo en negrita y apartado exacto (por ejemplo, «cuaderno_ejercicios.docx › Bloque 1 › Ronda sin IA»). Los apartados citados deben coincidir con los encabezados de la plantilla. Una actividad escrita nueva lleva su etiqueta; si cambia un encabezado de una plantilla, se corrige la etiqueta. La etiqueta no puede pasar de x = 4,1 pulgadas, para no tapar el pie del layout.
 - Al generar, validar con el script `validate.py` de la skill de pptx y revisar las imágenes renderizadas.
 
 ## Plantillas
